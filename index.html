@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="ru" class="no-js" data-mode="demo" data-route="home">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ТМР — российская система непрерывного мониторинга глюкозы</title>
+<meta name="description" content="ТрейдМедРесурс запускает производство системы непрерывного мониторинга глюкозы в России. Запишитесь в лист раннего доступа: приоритет на покупку и особые условия для первых.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://krokikro.github.io/tmr-demo/">
+<link rel="alternate" hreflang="ru" href="https://krokikro.github.io/tmr-demo/">
+<link rel="alternate" hreflang="en" href="https://krokikro.github.io/tmr-demo/en/">
+<link rel="alternate" hreflang="x-default" href="https://krokikro.github.io/tmr-demo/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ТМР">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:title" content="Российская система непрерывного мониторинга глюкозы">
+<meta property="og:description" content="Датчик, приложение и облако уже работают. Запишитесь в лист раннего доступа.">
+<meta property="og:url" content="https://krokikro.github.io/tmr-demo/">
+<meta property="og:image" content="https://krokikro.github.io/tmr-demo/assets/img/og-ru.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ТМР — российская система непрерывного мониторинга глюкозы">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B1E40">
+<link rel="icon" href="favicon.ico" sizes="32x32">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preload" href="assets/media/inter-cyrillic-wght-normal-JEOLYBOO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/media/inter-latin-wght-normal-NRMW37G5.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/main-D7XECKRH.css">
+<script>(function(d){var h=d.documentElement;h.className=h.className.replace('no-js','js');try{if(matchMedia('(prefers-reduced-motion: reduce)').matches)h.className+=' rm'}catch(e){}})(document);</script>
+<script type="module" src="assets/js/main-G2UYJJTF.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"ООО «Трейдмедресурс»","alternateName":["ТрейдМедРесурс","ТМР"],"url":"https://krokikro.github.io/tmr-demo/","logo":"https://krokikro.github.io/tmr-demo/icon-512.png","taxID":"9726115287","address":{"@type":"PostalAddress","streetAddress":"Варшавское шоссе, д. 26, стр. 12, помещ. 1/10","addressLocality":"Москва","postalCode":"117105","addressCountry":"RU"}}</script>
+</head>
+<body class="page page--home">
+<a class="skip" href="#main">Перейти к содержанию</a>
+<div class="scene" aria-hidden="true"><canvas class="scene__canvas" id="scene"></canvas></div>
+<header class="hdr" data-hdr>
+  <div class="hdr__inner">
+    <a class="hdr__logo" href="#top" aria-label="ТМР — на главную"><svg class="logo logo--draw" viewBox="0 -0.5 68.5 25" role="img" aria-label="ТМР" focusable="false"><g fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path class="logo__t" pathLength="1" stroke="currentColor" d="M2 2H18M10 2V22"/><path class="logo__m" pathLength="1" stroke="currentColor" d="M23.5 22V9C23.5 -1 30.5 -1 34.5 11C38.5 -1 45.5 -1 45.5 9V22"/><path class="logo__r" pathLength="1" stroke="currentColor" d="M53.5 22V2H60.5A6 6 0 0 1 60.5 14H53.5"/></g></svg></a>
+    <nav class="hdr__nav" aria-label="Разделы страницы">
+      <ul>
+                <li><a href="#about" data-nav="about">О нас</a></li>
+                <li><a href="#device" data-nav="device">Устройство</a></li>
+                <li><a href="#roadmap" data-nav="roadmap">Дорожная карта</a></li>
+                <li><a href="#contacts" data-nav="contacts">Контакты</a></li>
+              </ul>
+    </nav>
+    <div class="hdr__actions">
+      <div class="lang" role="group" aria-label="Язык сайта">
+                <span class="lang__item is-current" aria-current="true">RU</span>
+        <a class="lang__item" href="en/" hreflang="en" lang="en" data-lang-switch title="Switch to English">EN</a>
+                <span class="lang__thumb" aria-hidden="true"></span>
+      </div>
+      <a class="btn btn--small btn--glass hdr__cta" href="#hero-form" data-cta-nearest>Ранний доступ</a>
+      <button type="button" class="burger" aria-expanded="false" aria-controls="menu" aria-label="Открыть меню" data-burger>
+        <span class="burger__line"></span><span class="burger__line"></span>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="menu" id="menu" data-menu hidden>
+  <div class="menu__panel">
+    <nav class="menu__nav" aria-label="Меню">
+      <ul>
+                <li style="--i:0"><a href="#about" data-menu-link><span class="menu__num">01</span>О нас</a></li>
+                <li style="--i:1"><a href="#device" data-menu-link><span class="menu__num">02</span>Устройство</a></li>
+                <li style="--i:2"><a href="#roadmap" data-menu-link><span class="menu__num">03</span>Дорожная карта</a></li>
+                <li style="--i:3"><a href="#contacts" data-menu-link><span class="menu__num">04</span>Контакты</a></li>
+              </ul>
+    </nav>
+    <a class="btn btn--primary btn--block menu__cta" href="#join" data-menu-link>Ранний доступ<svg class="icon btn__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+</div>
+<main id="main" tabindex="-1">
+<!-- 1. Первый экран: оффер и форма -->
+<section class="sec hero" id="top" data-sec="hero" data-theme="dark" aria-labelledby="hero-title">
+  <div class="sec__bg" aria-hidden="true"></div>
+  <div class="hero__silk-fallback" aria-hidden="true"></div>
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <p class="eyebrow" data-reveal><span class="eyebrow__dot" aria-hidden="true"></span>Открыт лист раннего доступа</p>
+      <h1 class="h1 hero__title" id="hero-title" data-split><span class="w"><span class="wi">Российская</span></span> <span class="w"><span class="wi">система</span></span> <span class="w"><span class="wi">непрерывного</span></span> <span class="w"><span class="wi">мониторинга</span></span> <em class="u"><span class="w"><span class="wi">глюкозы</span></span><svg class="u__line" viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 11.5C58 5.8 118 4.2 171 5.4c43 1 86 3.4 126 6.6" pathLength="1"/></svg></em></h1>
+      <ul class="ticker" data-ticker data-reveal>
+                <li class="ticker__item is-active">15 дней на одном датчике</li>
+                <li class="ticker__item">без калибровки по крови</li>
+                <li class="ticker__item">показания прямо в смартфоне</li>
+                <li class="ticker__item">AI-помощник по питанию</li>
+              </ul>
+      <p class="lead hero__lead" data-reveal>Датчик, приложение и облако уже работают. Сейчас мы запускаем производство в России и собираем тех, кто хочет получить систему одним из первых.</p>
+      <a class="btn btn--primary hero__cta btn--magnetic" href="#hero-form" data-reveal>Записаться в лист<svg class="icon btn__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+      <div class="hero__benefits" data-reveal>
+        <p class="hero__benefits-title">Первые в листе получат</p>
+        <ul class="benefits">
+                    <li class="benefits__item"><svg class="icon benefits__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>приоритет на покупку</span></li>
+                    <li class="benefits__item"><svg class="icon benefits__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>особые условия</span></li>
+                    <li class="benefits__item"><svg class="icon benefits__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>возможность участвовать в клинических испытаниях</span></li>
+                    <li class="benefits__item"><svg class="icon benefits__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>новости раньше всех</span></li>
+                  </ul>
+      </div>
+    </div>
+    <div class="hero__form" id="hero-form" data-reveal="card">
+      <div class="glass glass--dark glass--blur form-card">
+        <form class="lead-form lead-form--dark" id="form-hero" data-lead-form="hero" action="api/lead.php" method="post" novalidate>
+  <div class="lead-form__main">
+    <div class="lead-form__head">
+      <h2 class="lead-form__title">Лист раннего доступа</h2>
+      <p class="lead-form__sub">Займёт меньше минуты</p>
+    </div>
+
+    <div class="field" data-field="name">
+      <label class="field__label" for="hero-name">Имя</label>
+      <div class="field__control">
+        <input class="field__input ym-disable-keys" id="hero-name" name="name" type="text" autocomplete="name" autocapitalize="words" enterkeyhint="next" maxlength="50" required placeholder="Как к вам обращаться" aria-describedby="hero-name-err">
+      </div>
+      <p class="field__error" id="hero-name-err"></p>
+    </div>
+
+    <div class="field field--phone" data-field="phone">
+      <label class="field__label" for="hero-phone">Телефон</label>
+      <div class="field__control phone">
+        <button type="button" class="phone__country" data-cc-toggle aria-haspopup="dialog" aria-expanded="false" aria-label="Код страны: +7">
+          <span class="phone__flag" data-cc-flag aria-hidden="true">🇷🇺</span>
+          <span class="phone__code" data-cc-code>+7</span>
+          <svg class="icon phone__chev" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9.5l6 6 6-6"/></svg>        </button>
+        <input class="field__input phone__input ym-disable-keys" id="hero-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" enterkeyhint="next" maxlength="24" required placeholder="Номер телефона" aria-describedby="hero-phone-err">
+        <input type="hidden" name="country" value="RU" data-cc-value>
+      </div>
+      <p class="field__error" id="hero-phone-err"></p>
+    </div>
+
+    <div class="field" data-field="email">
+      <label class="field__label" for="hero-email">E-mail</label>
+      <div class="field__control">
+        <input class="field__input ym-disable-keys" id="hero-email" name="email" type="email" inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" enterkeyhint="done" maxlength="254" required placeholder="name@mail.ru" aria-describedby="hero-email-err hero-email-hint">
+      </div>
+      <p class="field__hint" id="hero-email-hint" hidden></p>
+      <p class="field__error" id="hero-email-err"></p>
+    </div>
+
+    <div class="check" data-field="consent">
+      <input class="check__input" type="checkbox" id="hero-consent" name="consent" value="1" required aria-describedby="hero-consent-err">
+      <label class="check__label" for="hero-consent"><span class="check__box" aria-hidden="true"><svg class="icon check__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span><span class="check__text">Даю <a href="consent/" target="_blank" rel="noopener">согласие на обработку персональных данных</a> и принимаю <a href="privacy/" target="_blank" rel="noopener">политику конфиденциальности</a></span></label>
+      <p class="field__error" id="hero-consent-err"></p>
+    </div>
+
+    <div class="check" data-field="news">
+      <input class="check__input" type="checkbox" id="hero-news" name="news" value="1">
+      <label class="check__label" for="hero-news"><span class="check__box" aria-hidden="true"><svg class="icon check__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span><span class="check__text">Хочу получать новости проекта. Отписаться можно в любой момент</span></label>
+    </div>
+
+    <div class="hp" aria-hidden="true">
+      <label>Оставьте это поле пустым <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+    </div>
+    <input type="hidden" name="form" value="hero">
+    <input type="hidden" name="lang" value="ru">
+
+    <button type="submit" class="btn btn--primary btn--block btn--magnetic lead-form__submit" data-submit>
+      <span class="btn__label">Записаться</span>
+      <span class="btn__label btn__label--busy" aria-hidden="true">Отправляем…</span>
+      <span class="btn__spinner" aria-hidden="true"></span>
+      <svg class="icon btn__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg>    </button>
+    <div class="lead-form__status" role="status" aria-live="polite" data-status></div>
+        <p class="lead-form__note">Демо-версия: заявка никуда не отправляется</p>
+      </div>
+
+  <div class="lead-form__success" data-success hidden tabindex="-1">
+    <svg class="success-check" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+      <circle class="success-check__ring" cx="32" cy="32" r="28" pathLength="1"/>
+      <path class="success-check__tick" d="M20 33.5l8 8L45 24" pathLength="1"/>
+    </svg>
+    <p class="lead-form__success-title">Спасибо! Вы в листе раннего доступа</p>
+    <p class="lead-form__success-text">Мы сохранили заявку и напишем, как только появятся новости о старте.</p>
+    <button type="button" class="btn btn--small btn--ghost" data-again>Отправить ещё одну заявку</button>
+  </div>
+  <span class="lead-form__burst" aria-hidden="true"></span>
+</form>
+      </div>
+    </div>
+  </div>
+  <a class="scroll-hint" href="#about" data-scroll-hint><span class="scroll-hint__text">Листайте</span><span class="scroll-hint__line" aria-hidden="true"></span></a>
+</section>
+
+<!-- 2. О нас -->
+<section class="sec about" id="about" data-sec="about" data-theme="light" aria-labelledby="about-title">
+  <div class="sec__bg" aria-hidden="true"></div>
+  <div class="about__inner" data-depth-out>
+    <div class="wrap about__intro">
+      <p class="eyebrow" data-reveal><span class="eyebrow__dot" aria-hidden="true"></span>О компании</p>
+      <h2 class="h2 about__title" id="about-title" data-split><span class="w"><span class="wi">Делаем</span></span> <span class="w"><span class="wi">систему</span></span> <span class="w"><span class="wi">НМГ</span></span> <span class="w"><span class="wi">полного</span></span> <span class="w"><span class="wi">цикла</span></span> <span class="w"><span class="wi">и строим</span></span> <span class="w"><span class="wi">её производство</span></span> <em class="u"><span class="w"><span class="wi">в</span></span> <span class="w"><span class="wi">России</span></span><svg class="u__line" viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 11.5C58 5.8 118 4.2 171 5.4c43 1 86 3.4 126 6.6" pathLength="1"/></svg></em></h2>
+      <div class="about__lead">
+                <p class="lead" data-reveal>ТрейдМедРесурс — российский производитель и дистрибьютор системы непрерывного мониторинга глюкозы. Разработку начали в 2022 году, с тех пор получили первые патенты, запустили производство в Китае и довели его до стабильного процесса.</p>
+                <p class="lead" data-reveal>Теперь переносим производство в Россию и готовим изделие к государственной регистрации.</p>
+              </div>
+    </div>
+
+    <div class="bignum" data-bignum>
+      <p class="sr-only">1 000 000+ устройств в год — столько планируем выпускать и продавать</p>
+      <div class="bignum__track" aria-hidden="true" data-bignum-track>
+        <span class="bignum__sizer">1 000 000+</span>
+        <span class="bignum__value" data-count="1000000" data-suffix="+" data-locale="ru-RU">1 000 000+</span>
+      </div>
+      <p class="wrap bignum__caption" aria-hidden="true" data-reveal><span class="bignum__rule"></span>устройств в год — столько планируем выпускать и продавать</p>
+    </div>
+
+    <div class="wrap">
+      <ul class="facts">
+                <li class="fact glass glass--light tilt" data-reveal="card" style="--i:0">
+          <p class="fact__value">
+                        <span class="fact__num" data-count="2022" data-plain="1">2022</span>
+                                  </p>
+          <p class="fact__label">начали разработку</p>
+        </li>
+                <li class="fact glass glass--light tilt" data-reveal="card" style="--i:1">
+          <p class="fact__value">
+                        <span class="fact__num" data-count="15" data-plain="1">15</span>
+                        <span class="fact__unit">дней</span>          </p>
+          <p class="fact__label">работает один датчик</p>
+        </li>
+                <li class="fact glass glass--light tilt" data-reveal="card" style="--i:2">
+          <p class="fact__value">
+                        <span class="fact__num" data-count="2026" data-plain="1">2026</span>
+                                  </p>
+          <p class="fact__label">стартует регистрация медизделия в России</p>
+        </li>
+                <li class="fact glass glass--light tilt fact--wide" data-reveal="card" style="--i:3">
+          <p class="fact__value">
+                        <span class="fact__num fact__num--word">Полный цикл</span>
+                                  </p>
+          <p class="fact__label">производства в России — строим прямо сейчас</p>
+        </li>
+              </ul>
+
+      <h3 class="about__cards-title" data-reveal>С кем работаем</h3>
+      <div class="cards-tilt" data-parallax>
+                <article class="pcard glass glass--light tilt" data-reveal="card" style="--i:0">
+          <span class="pcard__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 9.4L12 4.6l8.5 4.8"/><path d="M5.5 10.4v7.6M9.8 10.4v7.6M14.2 10.4v7.6M18.5 10.4v7.6"/><path d="M3.5 20.4h17"/></svg></span>
+          <h4 class="pcard__title">Ведомства и институты</h4>
+          <p class="pcard__text">Работаем с отраслевыми институтами и ведомствами. Подписали несколько меморандумов — они подтверждают интерес к нашей системе.</p>
+                  </article>
+                <article class="pcard glass glass--light tilt" data-reveal="card" style="--i:1">
+          <span class="pcard__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="9" cy="8.6" r="3.2"/><path d="M3.4 19.2c.6-3.4 2.8-5.2 5.6-5.2s5 1.8 5.6 5.2"/><circle cx="16.6" cy="9.6" r="2.5"/><path d="M16.3 14.3c2.3.1 3.9 1.6 4.4 4.4"/></svg></span>
+          <h4 class="pcard__title">Пациентское сообщество</h4>
+          <p class="pcard__text">Работаем с пациентским сообществом. Те, кто запишется первыми, узнают о старте раньше всех и получат особые условия.</p>
+                    <a class="link-arrow" href="#join">Записаться<svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                  </article>
+                <article class="pcard glass glass--light tilt" data-reveal="card" style="--i:2">
+          <span class="pcard__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.6"/><path d="M3.6 12h16.8"/><path d="M12 3.4c2.5 2.5 3.7 5.4 3.7 8.6s-1.2 6.1-3.7 8.6c-2.5-2.5-3.7-5.4-3.7-8.6S9.5 5.9 12 3.4z"/></svg></span>
+          <h4 class="pcard__title">Дистрибуция</h4>
+          <p class="pcard__text">Открыты к разговору о региональной и международной дистрибуции. Напишите — обсудим условия.</p>
+                    <a class="link-arrow" href="#contacts">Обсудить дистрибуцию<svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                  </article>
+              </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. Устройство под шёлком -->
+<section class="sec device" id="device" data-sec="device" data-theme="dark" aria-labelledby="device-title">
+  <div class="sec__bg" aria-hidden="true"></div>
+  <div class="wrap device__head" data-depth-in>
+    <p class="eyebrow" data-reveal><span class="eyebrow__dot" aria-hidden="true"></span>Устройство</p>
+    <h2 class="h2" id="device-title" data-split><span class="w"><span class="wi">Пока</span></span> <span class="nw"><span class="w"><span class="wi">под </span></span><em class="u"><span class="w"><span class="wi">шёлком</span></span><svg class="u__line" viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 11.5C58 5.8 118 4.2 171 5.4c43 1 86 3.4 126 6.6" pathLength="1"/></svg></em><span class="w"><span class="wi">.</span></span></span> <span class="w"><span class="wi">Но уже</span></span> <span class="w"><span class="wi">работает</span></span></h2>
+    <p class="lead device__lead" data-reveal>Дизайн и название покажем чуть позже. Вот что уже можно рассказать.</p>
+  </div>
+  <div class="wrap device__grid">
+    <div class="device__stage" data-stage role="img" aria-label="Датчик, накрытый шёлковой тканью. Ткань колышется от движения курсора или касания">
+      <div class="device__fallback" aria-hidden="true"></div>
+      <p class="device__hint" aria-hidden="true">
+        <span class="device__hint-pointer"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6.5 3.8l11 6.4-4.9 1.4-2.3 5z"/><path d="M13 12.2l3.6 5.6"/></svg>Проведите курсором по ткани</span>
+        <span class="device__hint-touch"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="7.5" opacity=".5"/></svg>Коснитесь ткани</span>
+      </p>
+    </div>
+    <ul class="specs" data-specs>
+            <li class="spec glass glass--dark" data-reveal="card" style="--i:0" data-spec="0">
+        <span class="spec__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></span>
+        <span class="spec__body"><span class="spec__k">15 дней</span><span class="spec__v">работает один датчик</span></span>
+      </li>
+            <li class="spec glass glass--dark" data-reveal="card" style="--i:1" data-spec="1">
+        <span class="spec__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3.6s-5.8 6.2-5.8 10.2a5.8 5.8 0 0 0 11.6 0c0-4-5.8-10.2-5.8-10.2z"/><path d="M4.5 4.5l15 15"/></svg></span>
+        <span class="spec__body"><span class="spec__k">Без калибровки</span><span class="spec__v">по крови и без отдельного ридера</span></span>
+      </li>
+            <li class="spec glass glass--dark" data-reveal="card" style="--i:2" data-spec="2">
+        <span class="spec__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="7" y="2.8" width="10" height="18.4" rx="2.6"/><path d="M11 18h2"/></svg></span>
+        <span class="spec__body"><span class="spec__k">iOS и Android</span><span class="spec__v">показания в реальном времени в смартфоне</span></span>
+      </li>
+            <li class="spec glass glass--dark" data-reveal="card" style="--i:3" data-spec="3">
+        <span class="spec__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7.6 18.5h9.6a4 4 0 0 0 .5-7.96A5.6 5.6 0 0 0 6.9 9.6a4.5 4.5 0 0 0 .7 8.9z"/></svg></span>
+        <span class="spec__body"><span class="spec__k">Облако</span><span class="spec__v">врач и близкие видят данные удалённо</span></span>
+      </li>
+            <li class="spec glass glass--dark" data-reveal="card" style="--i:4" data-spec="4">
+        <span class="spec__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6.2 16.4V11a5.8 5.8 0 0 1 11.6 0v5.4l1.5 2.1H4.7z"/><path d="M10 20.6a2.1 2.1 0 0 0 4 0"/></svg></span>
+        <span class="spec__body"><span class="spec__k">Оповещения</span><span class="spec__v">о низком и высоком уровне глюкозы</span></span>
+      </li>
+            <li class="spec glass glass--dark" data-reveal="card" style="--i:5" data-spec="5">
+        <span class="spec__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M11 3.5l1.7 5.1 5.1 1.7-5.1 1.7L11 17.1l-1.7-5.1-5.1-1.7 5.1-1.7z"/><path d="M18.3 14.6l.7 1.9 1.9.7-1.9.7-.7 1.9-.7-1.9-1.9-.7 1.9-.7z"/></svg></span>
+        <span class="spec__body"><span class="spec__k">AI-помощник</span><span class="spec__v">распознаёт еду по фото и показывает, как она влияет на глюкозу</span></span>
+      </li>
+            <li class="spec glass glass--dark" data-reveal="card" style="--i:6" data-spec="6">
+        <span class="spec__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 19.5C5 11.2 10.4 5.6 19.5 4.5c0 9-5.3 15-14.5 15z"/><path d="M5 19.5c2.7-4 5.7-6.7 9.2-8.7"/></svg></span>
+        <span class="spec__body"><span class="spec__k">Велнес-режим</span><span class="spec__v">для тех, кто следит за питанием и активностью</span></span>
+      </li>
+            <li class="spec glass glass--dark" data-reveal="card" style="--i:7" data-spec="7">
+        <span class="spec__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="6" width="12.6" height="12" rx="2.6"/><path d="M15.6 10.4l5.4-3v9.2l-5.4-3z"/></svg></span>
+        <span class="spec__body"><span class="spec__k">Телемедицина</span><span class="spec__v">интеграция с сервисами онлайн-консультаций</span></span>
+      </li>
+          </ul>
+    <svg class="device__callouts" data-callouts aria-hidden="true" focusable="false"></svg>
+  </div>
+  <div class="wrap device__foot" data-reveal>
+    <p class="device__caption">Дизайн и название раскроем скоро. Запишитесь, чтобы увидеть первыми.</p>
+    <a class="btn btn--primary btn--magnetic" href="#join">Хочу увидеть первым<svg class="icon btn__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+</section>
+
+<!-- 4. Дорожная карта -->
+<section class="sec roadmap" id="roadmap" data-sec="roadmap" data-theme="dark" aria-labelledby="roadmap-title" data-roadmap>
+  <div class="sec__bg" aria-hidden="true"></div>
+  <div class="roadmap__pin" data-rm-pin>
+    <div class="wrap roadmap__head">
+      <div>
+        <p class="eyebrow" data-reveal><span class="eyebrow__dot" aria-hidden="true"></span>Дорожная карта</p>
+        <h2 class="h2" id="roadmap-title" data-split><span class="w"><span class="wi">Путь</span></span> <span class="nw"><span class="w"><span class="wi">с </span></span><em class="u"><span class="w"><span class="wi">2022</span></span><svg class="u__line" viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 11.5C58 5.8 118 4.2 171 5.4c43 1 86 3.4 126 6.6" pathLength="1"/></svg></em></span> <span class="w"><span class="wi">года</span></span></h2>
+        <p class="lead roadmap__lead" data-reveal>Девять шагов от идеи до российского рынка. Сейчас мы на шестом.</p>
+      </div>
+      <ul class="rm-legend" data-reveal aria-hidden="true">
+        <li class="rm-legend__item rm-legend__item--done"><i></i>Пройдено</li>
+        <li class="rm-legend__item rm-legend__item--current"><i></i>Мы здесь</li>
+        <li class="rm-legend__item rm-legend__item--next"><i></i>Впереди</li>
+      </ul>
+    </div>
+    <div class="roadmap__viewport" data-rm-viewport>
+      <div class="roadmap__track" data-rm-track style="--count:9;--current:5">
+        <svg class="rm-path" data-rm-svg aria-hidden="true" focusable="false">
+          <path class="rm-path__base" data-rm-base/>
+          <path class="rm-path__done" data-rm-done/>
+          <path class="rm-path__next" data-rm-next/>
+        </svg>
+        <span class="rm-vline" aria-hidden="true"><span class="rm-vline__fill" data-rm-vfill></span></span>
+        <ol class="stages">
+                    <li class="stage stage--done stage--high" data-stage-i="0" style="--i:0">
+            <span class="stage__dot" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">01</span><span class="stage__year">2022</span></p>
+              <h3 class="stage__title">Запуск НИОКР</h3>
+              <p class="stage__text">Начали разработку датчика, приложения и облака</p>
+              <p class="stage__status">Пройдено</p>
+            </div>
+          </li>
+                    <li class="stage stage--done stage--low" data-stage-i="1" style="--i:1">
+            <span class="stage__dot" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">02</span></p>
+              <h3 class="stage__title">Первые патенты</h3>
+              <p class="stage__text">Защитили ключевые технические решения</p>
+              <p class="stage__status">Пройдено</p>
+            </div>
+          </li>
+                    <li class="stage stage--done stage--high" data-stage-i="2" style="--i:2">
+            <span class="stage__dot" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">03</span></p>
+              <h3 class="stage__title">Производство в Китае</h3>
+              <p class="stage__text">Запустили выпуск на площадке в КНР</p>
+              <p class="stage__status">Пройдено</p>
+            </div>
+          </li>
+                    <li class="stage stage--done stage--low" data-stage-i="3" style="--i:3">
+            <span class="stage__dot" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">04</span></p>
+              <h3 class="stage__title">Отработка процессов</h3>
+              <p class="stage__text">Довели производство до стабильного результата</p>
+              <p class="stage__status">Пройдено</p>
+            </div>
+          </li>
+                    <li class="stage stage--done stage--high" data-stage-i="4" style="--i:4">
+            <span class="stage__dot" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">05</span></p>
+              <h3 class="stage__title">Международная сертификация</h3>
+              <p class="stage__text">Запустили процедуру для зарубежных рынков</p>
+              <p class="stage__status">Пройдено</p>
+            </div>
+          </li>
+                    <li class="stage stage--current stage--low" data-stage-i="5" style="--i:5" aria-current="step">
+            <span class="stage__dot" aria-hidden="true"></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">06</span><span class="stage__year">2026</span></p>
+              <h3 class="stage__title">Производство в России</h3>
+              <p class="stage__text">Запускаем площадку и переносим выпуск</p>
+              <p class="stage__status">Мы здесь</p>
+            </div>
+          </li>
+                    <li class="stage stage--next stage--high" data-stage-i="6" style="--i:6">
+            <span class="stage__dot" aria-hidden="true"></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">07</span></p>
+              <h3 class="stage__title">Регистрация в России</h3>
+              <p class="stage__text">Получение регистрационного удостоверения медизделия</p>
+              <p class="stage__status">Впереди</p>
+            </div>
+          </li>
+                    <li class="stage stage--next stage--low" data-stage-i="7" style="--i:7">
+            <span class="stage__dot" aria-hidden="true"></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">08</span></p>
+              <h3 class="stage__title">Выход на рынок</h3>
+              <p class="stage__text">Старт продаж в России</p>
+              <p class="stage__status">Впереди</p>
+            </div>
+          </li>
+                    <li class="stage stage--next stage--high" data-stage-i="8" style="--i:8">
+            <span class="stage__dot" aria-hidden="true"></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">09</span></p>
+              <h3 class="stage__title">Реестр промышленной продукции</h3>
+              <p class="stage__text">Включение в реестр российской продукции по ПП № 719</p>
+              <p class="stage__status">Впереди</p>
+            </div>
+          </li>
+                  </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. Финальный оффер и форма -->
+<section class="sec join" id="join" data-sec="join" data-theme="dark" aria-labelledby="join-title" data-join>
+  <div class="sec__bg" aria-hidden="true"></div>
+  <div class="join__reveal" aria-hidden="true"><span class="join__circle" data-join-circle></span></div>
+  <div class="wrap join__grid">
+    <div class="join__copy">
+      <p class="eyebrow" data-reveal><span class="eyebrow__dot" aria-hidden="true"></span>Лист раннего доступа</p>
+      <h2 class="h2 join__title" id="join-title" data-split><span class="w"><span class="wi">Будьте</span></span> <span class="w"><span class="wi">среди</span></span> <em class="u"><span class="w"><span class="wi">первых</span></span><svg class="u__line" viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 11.5C58 5.8 118 4.2 171 5.4c43 1 86 3.4 126 6.6" pathLength="1"/></svg></em></h2>
+      <p class="lead" data-reveal>Оставьте контакты — напишем, когда начнём, и закрепим за вами приоритет.</p>
+      <ul class="benefits benefits--light" data-reveal>
+                <li class="benefits__item"><svg class="icon benefits__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>приоритет на покупку</span></li>
+                <li class="benefits__item"><svg class="icon benefits__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>особые условия</span></li>
+                <li class="benefits__item"><svg class="icon benefits__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>возможность участвовать в клинических испытаниях</span></li>
+                <li class="benefits__item"><svg class="icon benefits__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>новости раньше всех</span></li>
+              </ul>
+      <div class="faq" data-reveal>
+        <h3 class="faq__title">Коротко о главном</h3>
+                <details class="faq__item">
+          <summary class="faq__q"><span>Что такое ранний доступ?</span><svg class="icon faq__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></summary>
+          <p class="faq__a">Это список тех, кто хочет узнать о системе первыми. Когда начнём, напишем вам раньше остальных и предложим особые условия для первых пользователей.</p>
+        </details>
+                <details class="faq__item">
+          <summary class="faq__q"><span>Когда появится устройство?</span><svg class="icon faq__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></summary>
+          <p class="faq__a">Сейчас мы запускаем производство в России и готовим изделие к государственной регистрации. Продажи начнутся после регистрации — о старте сообщим по почте или телефону.</p>
+        </details>
+                <details class="faq__item">
+          <summary class="faq__q"><span>Можно ли участвовать в испытаниях?</span><svg class="icon faq__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></summary>
+          <p class="faq__a">Если для клинических испытаний понадобятся участники, мы напишем тем, кто в листе, и расскажем об условиях. Участие добровольное.</p>
+        </details>
+                <details class="faq__item">
+          <summary class="faq__q"><span>Что будет с моими данными?</span><svg class="icon faq__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></summary>
+          <p class="faq__a">Храним их на серверах в России и используем только для связи по раннему доступу. Отозвать согласие можно в любой момент — просто напишите нам.</p>
+        </details>
+              </div>
+    </div>
+    <div class="join__form" id="join-form" data-reveal="card">
+      <div class="form-card form-card--light">
+        <form class="lead-form lead-form--light" id="form-final" data-lead-form="final" action="api/lead.php" method="post" novalidate>
+  <div class="lead-form__main">
+    <div class="lead-form__head">
+      <h3 class="lead-form__title">Лист раннего доступа</h3>
+      <p class="lead-form__sub">Займёт меньше минуты</p>
+    </div>
+
+    <div class="field" data-field="name">
+      <label class="field__label" for="final-name">Имя</label>
+      <div class="field__control">
+        <input class="field__input ym-disable-keys" id="final-name" name="name" type="text" autocomplete="name" autocapitalize="words" enterkeyhint="next" maxlength="50" required placeholder="Как к вам обращаться" aria-describedby="final-name-err">
+      </div>
+      <p class="field__error" id="final-name-err"></p>
+    </div>
+
+    <div class="field field--phone" data-field="phone">
+      <label class="field__label" for="final-phone">Телефон</label>
+      <div class="field__control phone">
+        <button type="button" class="phone__country" data-cc-toggle aria-haspopup="dialog" aria-expanded="false" aria-label="Код страны: +7">
+          <span class="phone__flag" data-cc-flag aria-hidden="true">🇷🇺</span>
+          <span class="phone__code" data-cc-code>+7</span>
+          <svg class="icon phone__chev" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9.5l6 6 6-6"/></svg>        </button>
+        <input class="field__input phone__input ym-disable-keys" id="final-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" enterkeyhint="next" maxlength="24" required placeholder="Номер телефона" aria-describedby="final-phone-err">
+        <input type="hidden" name="country" value="RU" data-cc-value>
+      </div>
+      <p class="field__error" id="final-phone-err"></p>
+    </div>
+
+    <div class="field" data-field="email">
+      <label class="field__label" for="final-email">E-mail</label>
+      <div class="field__control">
+        <input class="field__input ym-disable-keys" id="final-email" name="email" type="email" inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" enterkeyhint="done" maxlength="254" required placeholder="name@mail.ru" aria-describedby="final-email-err final-email-hint">
+      </div>
+      <p class="field__hint" id="final-email-hint" hidden></p>
+      <p class="field__error" id="final-email-err"></p>
+    </div>
+
+    <div class="check" data-field="consent">
+      <input class="check__input" type="checkbox" id="final-consent" name="consent" value="1" required aria-describedby="final-consent-err">
+      <label class="check__label" for="final-consent"><span class="check__box" aria-hidden="true"><svg class="icon check__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span><span class="check__text">Даю <a href="consent/" target="_blank" rel="noopener">согласие на обработку персональных данных</a> и принимаю <a href="privacy/" target="_blank" rel="noopener">политику конфиденциальности</a></span></label>
+      <p class="field__error" id="final-consent-err"></p>
+    </div>
+
+    <div class="check" data-field="news">
+      <input class="check__input" type="checkbox" id="final-news" name="news" value="1">
+      <label class="check__label" for="final-news"><span class="check__box" aria-hidden="true"><svg class="icon check__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span><span class="check__text">Хочу получать новости проекта. Отписаться можно в любой момент</span></label>
+    </div>
+
+    <div class="hp" aria-hidden="true">
+      <label>Оставьте это поле пустым <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+    </div>
+    <input type="hidden" name="form" value="final">
+    <input type="hidden" name="lang" value="ru">
+
+    <button type="submit" class="btn btn--primary btn--block btn--magnetic lead-form__submit" data-submit>
+      <span class="btn__label">Записаться</span>
+      <span class="btn__label btn__label--busy" aria-hidden="true">Отправляем…</span>
+      <span class="btn__spinner" aria-hidden="true"></span>
+      <svg class="icon btn__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg>    </button>
+    <div class="lead-form__status" role="status" aria-live="polite" data-status></div>
+        <p class="lead-form__note">Демо-версия: заявка никуда не отправляется</p>
+      </div>
+
+  <div class="lead-form__success" data-success hidden tabindex="-1">
+    <svg class="success-check" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+      <circle class="success-check__ring" cx="32" cy="32" r="28" pathLength="1"/>
+      <path class="success-check__tick" d="M20 33.5l8 8L45 24" pathLength="1"/>
+    </svg>
+    <p class="lead-form__success-title">Спасибо! Вы в листе раннего доступа</p>
+    <p class="lead-form__success-text">Мы сохранили заявку и напишем, как только появятся новости о старте.</p>
+    <button type="button" class="btn btn--small btn--ghost" data-again>Отправить ещё одну заявку</button>
+  </div>
+  <span class="lead-form__burst" aria-hidden="true"></span>
+</form>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="ftr sec" id="contacts" data-sec="footer" data-theme="dark">
+  <div class="sec__bg" aria-hidden="true"></div>
+  <div class="wrap ftr__grid">
+    <div class="ftr__brand">
+      <a class="ftr__logo" href="#top" aria-label="ТМР — на главную"><span class="logo-h"><svg class="logo logo-h__mark" viewBox="0 -0.5 68.5 25" role="img" aria-label="ТрейдМедРесурс" focusable="false"><g fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path class="logo__t" pathLength="1" stroke="currentColor" d="M2 2H18M10 2V22"/><path class="logo__m" pathLength="1" stroke="currentColor" d="M23.5 22V9C23.5 -1 30.5 -1 34.5 11C38.5 -1 45.5 -1 45.5 9V22"/><path class="logo__r" pathLength="1" stroke="currentColor" d="M53.5 22V2H60.5A6 6 0 0 1 60.5 14H53.5"/></g></svg><span class="logo-h__name" aria-hidden="true">ТрейдМедРесурс</span></span></a>
+      <p class="ftr__about">ООО «Трейдмедресурс» — российский производитель и дистрибьютор системы непрерывного мониторинга глюкозы.</p>
+    </div>
+    <nav class="ftr__col" aria-labelledby="ftr-sections">
+      <h2 class="ftr__h" id="ftr-sections">Разделы</h2>
+      <ul class="ftr__list">
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#device">Устройство</a></li>
+                <li><a href="#roadmap">Дорожная карта</a></li>
+                <li><a href="#join">Ранний доступ</a></li>
+      </ul>
+    </nav>
+    <nav class="ftr__col" aria-labelledby="ftr-docs">
+      <h2 class="ftr__h" id="ftr-docs">Документы</h2>
+      <ul class="ftr__list">
+        <li><a href="privacy/">Политика конфиденциальности</a></li>
+        <li><a href="consent/">Согласие на обработку персональных данных</a></li>
+      </ul>
+    </nav>
+    <div class="ftr__col">
+      <h2 class="ftr__h">Контакты</h2>
+      <ul class="ftr__list ftr__contacts">
+                <li>
+                    <span class="contact contact--soon">
+            <span class="contact__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7.5l8 5.5 8-5.5"/></svg></span>
+            <span class="contact__body"><span class="contact__label">Почта</span><span class="contact__value">появится скоро</span></span>
+          </span>
+                  </li>
+                <li>
+                    <span class="contact contact--soon">
+            <span class="contact__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.6 4.4L3.4 11.1l5.8 2.1 2.1 6.4 3.1-3.8 4.6 3.4z"/><path d="M9.2 13.2l7.6-5.6"/></svg></span>
+            <span class="contact__body"><span class="contact__label">Telegram</span><span class="contact__value">появится скоро</span></span>
+          </span>
+                  </li>
+                <li>
+                    <span class="contact contact--soon">
+            <span class="contact__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3.6a8.4 8.4 0 0 0-7.3 12.6L3.6 20.4l4.3-1.1A8.4 8.4 0 1 0 12 3.6z"/><path d="M8.6 12h6.8"/></svg></span>
+            <span class="contact__body"><span class="contact__label">MAX</span><span class="contact__value">появится скоро</span></span>
+          </span>
+                  </li>
+              </ul>
+    </div>
+    <div class="ftr__col ftr__req">
+      <h2 class="ftr__h">Реквизиты</h2>
+      <p class="ftr__req-text">ООО «Трейдмедресурс»<br>ИНН 9726115287 · ОГРН 1267700201460<br>117105, Москва, Варшавское ш., д. 26, стр. 12, помещ. 1/10</p>
+    </div>
+  </div>
+  <div class="wrap ftr__bottom">
+    <p class="ftr__disclaimer">Медицинское изделие готовится к государственной регистрации в России. Информация на сайте не является публичной офертой.</p>
+    <div class="ftr__row">
+      <p class="ftr__copy">© 2026 ООО «Трейдмедресурс»</p>
+      <a class="ftr__top" href="#top" data-to-top>Наверх<svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a>
+    </div>
+  </div>
+</footer>
+<div class="cookie" data-cookie hidden>
+  <p class="cookie__text">Мы используем cookie-файлы и Яндекс Метрику, чтобы сайт работал лучше. Подробнее — в <a href="privacy/">политике конфиденциальности</a>.</p>
+  <button type="button" class="btn btn--small btn--light cookie__ok" data-cookie-ok>Понятно</button>
+</div>
+<div class="toast" data-lang-suggest hidden lang="en">
+  <p class="toast__text">This site is also available in English.</p>
+  <div class="toast__actions">
+    <a class="btn btn--small btn--light" href="en/" data-lang-go hreflang="en">Switch to English</a>
+    <button type="button" class="btn btn--small btn--ghost" data-lang-stay>Stay here</button>
+  </div>
+</div>
+<div class="demo-badge" aria-hidden="true">Демо-версия</div>
+<script type="application/json" id="app-data">{"lang":"ru","locale":"ru-RU","mode":"demo","api":"api/lead.php","consentVersion":"2026-09-18","defaultCountry":"RU","popular":["RU","KZ","BY","UZ","KG","AM"],"email":"","metrika":"","otherLang":"en/","form":{"title":"Лист раннего доступа","sub":"Займёт меньше минуты","name":{"label":"Имя","placeholder":"Как к вам обращаться"},"phone":{"label":"Телефон","country":"Код страны","search":"Страна или код","noResults":"Ничего не нашлось","popular":"Часто выбирают","all":"Все страны","placeholder":"Номер телефона"},"email":{"label":"E-mail","placeholder":"name@mail.ru"},"consentText":"Даю {consent} и принимаю {privacy}","consentLink":"согласие на обработку персональных данных","privacyLink":"политику конфиденциальности","news":"Хочу получать новости проекта. Отписаться можно в любой момент","honeypot":"Оставьте это поле пустым","submit":"Записаться","sending":"Отправляем…","demoNote":"Демо-версия: заявка никуда не отправляется","emailSuggest":"Возможно, вы имели в виду {email}?","fallback":"Если не получается, напишите нам: {email}","errors":{"nameRequired":"Напишите имя буквами — хотя бы 2 символа","nameInvalid":"Имя пишем буквами, без цифр и символов","phoneRequired":"Укажите номер телефона","phoneInvalid":"Проверьте номер: для страны «{country}» он не подходит","phoneRu":"Проверьте номер: для России нужно 10 цифр после +7","emailRequired":"Укажите e-mail","emailInvalid":"Похоже, в адресе ошибка. Пример: name@mail.ru","consent":"Без согласия мы не сможем принять заявку","summary":"Проверьте поля, отмеченные красным","network":"Не получилось отправить. Проверьте интернет и попробуйте ещё раз","rate":"Слишком много заявок подряд. Попробуйте чуть позже","server":"Что-то пошло не так на нашей стороне. Попробуйте ещё раз или напишите нам"},"retry":"Повторить","success":{"title":"Спасибо! Вы в листе раннего доступа","text":"Мы сохранили заявку и напишем, как только появятся новости о старте.","again":"Отправить ещё одну заявку"}},"ui":{"openMenu":"Открыть меню","closeMenu":"Закрыть меню"},"fx":{"_about":"Параметры анимаций и 3D-сцены (ANIM-15, EDIT-04). Цвета — HEX, скорости — множители. Правится без пересборки: файл читается при выводе страницы.","palette":{"hero":{"a":"#0B1E40","b":"#11306A","c":"#1F5CA8","spot1":"#009FE1","spot2":"#2EE6C5","edge":"#1F5CA8"},"about":{"a":"#F0F4FE","b":"#E3ECFC","c":"#EFE7F7","spot1":"#9CCEF6","spot2":"#D9C4EC","light":true,"edge":"#3C9BF5"},"device":{"a":"#040A17","b":"#08132C","c":"#132456","spot1":"#2EE6C5","spot2":"#A77BA5","edge":"#7A62D6"},"roadmap":{"a":"#0B6FB0","b":"#6E5690","c":"#1B5AA0","spot1":"#2EE6C5","spot2":"#57B8F0","edge":"#2EE6C5"},"join":{"a":"#0A2A6B","b":"#123C8C","c":"#1D5FD0","spot1":"#2EE6C5","spot2":"#A77BA5","edge":"#3D8BF0"},"footer":{"a":"#0D2450","b":"#102A56","c":"#16366B","spot1":"#009FE1","spot2":"#A77BA5","edge":"#1B3F7A"}},"flow":{"speed":0.075,"warp":1,"grain":0.03,"blend":0.11,"edge":0.7},"spots":{"follow":0.075,"size":0.3,"intensity":0.5,"burst":1},"silk":{"colorA":"#2B8FE3","colorB":"#A77BA5","colorC":"#172A63","sheen":"#E8F7FF","sheen2":"#2EE6C5","rim":"#7AD4FF","speed":1,"amplitude":1,"opacityMobile":0.72},"drape":{"colorA":"#A9CDF5","colorB":"#BBA6DF","colorC":"#161D4A","sheen":"#FFFFFF","sheen2":"#2EE6C5","rim":"#9C86D8","breath":1,"ripple":1,"tilt":50,"turn":-14,"spec":0.62},"quality":{"maxDpr":1.75,"mobileMaxDpr":1.35,"bgScale":0.5,"mobileBgScale":0.34,"minFps":50}}}</script></body>
+</html>

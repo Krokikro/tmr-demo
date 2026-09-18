@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="en" class="no-js" data-mode="demo" data-route="home">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TMR — Russian continuous glucose monitoring system</title>
+<meta name="description" content="TradeMedResource is launching production of a continuous glucose monitoring system in Russia. Join the early access list: purchase priority and special terms for the first users.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://krokikro.github.io/tmr-demo/en/">
+<link rel="alternate" hreflang="ru" href="https://krokikro.github.io/tmr-demo/">
+<link rel="alternate" hreflang="en" href="https://krokikro.github.io/tmr-demo/en/">
+<link rel="alternate" hreflang="x-default" href="https://krokikro.github.io/tmr-demo/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TMR">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ru_RU">
+<meta property="og:title" content="Russian continuous glucose monitoring system">
+<meta property="og:description" content="The sensor, app and cloud already work. Join the early access list.">
+<meta property="og:url" content="https://krokikro.github.io/tmr-demo/en/">
+<meta property="og:image" content="https://krokikro.github.io/tmr-demo/assets/img/og-en.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="TMR — Russian continuous glucose monitoring system">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0B1E40">
+<link rel="icon" href="../favicon.ico" sizes="32x32">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="preload" href="../assets/media/inter-latin-wght-normal-NRMW37G5.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/main-D7XECKRH.css">
+<script>(function(d){var h=d.documentElement;h.className=h.className.replace('no-js','js');try{if(matchMedia('(prefers-reduced-motion: reduce)').matches)h.className+=' rm'}catch(e){}})(document);</script>
+<script type="module" src="../assets/js/main-G2UYJJTF.js"></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Treydmedresurs LLC","alternateName":["TradeMedResource","TMR"],"url":"https://krokikro.github.io/tmr-demo/","logo":"https://krokikro.github.io/tmr-demo/icon-512.png","taxID":"9726115287","address":{"@type":"PostalAddress","streetAddress":"26 Varshavskoye Hwy, bldg. 12, premises 1/10","addressLocality":"Moscow","postalCode":"117105","addressCountry":"RU"}}</script>
+</head>
+<body class="page page--home">
+<a class="skip" href="#main">Skip to content</a>
+<div class="scene" aria-hidden="true"><canvas class="scene__canvas" id="scene"></canvas></div>
+<header class="hdr" data-hdr>
+  <div class="hdr__inner">
+    <a class="hdr__logo" href="#top" aria-label="TMR — home"><svg class="logo logo--draw" viewBox="0 -0.5 69.6 25" role="img" aria-label="TMR" focusable="false"><g fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path class="logo__t" pathLength="1" stroke="currentColor" d="M2 2H18M10 2V22"/><path class="logo__m" pathLength="1" stroke="currentColor" d="M23.5 22V9C23.5 -1 30.5 -1 34.5 11C38.5 -1 45.5 -1 45.5 9V22"/><path class="logo__r" pathLength="1" stroke="currentColor" d="M53.5 22V2H60.5A6 6 0 0 1 60.5 14H53.5M61 14L67.5 22"/></g></svg></a>
+    <nav class="hdr__nav" aria-label="Page sections">
+      <ul>
+                <li><a href="#about" data-nav="about">About</a></li>
+                <li><a href="#device" data-nav="device">Device</a></li>
+                <li><a href="#roadmap" data-nav="roadmap">Roadmap</a></li>
+                <li><a href="#contacts" data-nav="contacts">Contacts</a></li>
+              </ul>
+    </nav>
+    <div class="hdr__actions">
+      <div class="lang" role="group" aria-label="Site language">
+                <a class="lang__item" href="../" hreflang="ru" lang="ru" data-lang-switch title="Перейти на русский">RU</a>
+        <span class="lang__item is-current" aria-current="true">EN</span>
+                <span class="lang__thumb" aria-hidden="true"></span>
+      </div>
+      <a class="btn btn--small btn--glass hdr__cta" href="#hero-form" data-cta-nearest>Early access</a>
+      <button type="button" class="burger" aria-expanded="false" aria-controls="menu" aria-label="Open menu" data-burger>
+        <span class="burger__line"></span><span class="burger__line"></span>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="menu" id="menu" data-menu hidden>
+  <div class="menu__panel">
+    <nav class="menu__nav" aria-label="Menu">
+      <ul>
+                <li style="--i:0"><a href="#about" data-menu-link><span class="menu__num">01</span>About</a></li>
+                <li style="--i:1"><a href="#device" data-menu-link><span class="menu__num">02</span>Device</a></li>
+                <li style="--i:2"><a href="#roadmap" data-menu-link><span class="menu__num">03</span>Roadmap</a></li>
+                <li style="--i:3"><a href="#contacts" data-menu-link><span class="menu__num">04</span>Contacts</a></li>
+              </ul>
+    </nav>
+    <a class="btn btn--primary btn--block menu__cta" href="#join" data-menu-link>Early access<svg class="icon btn__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+</div>
+<main id="main" tabindex="-1">
+<!-- 1. Первый экран: оффер и форма -->
+<section class="sec hero" id="top" data-sec="hero" data-theme="dark" aria-labelledby="hero-title">
+  <div class="sec__bg" aria-hidden="true"></div>
+  <div class="hero__silk-fallback" aria-hidden="true"></div>
+  <div class="wrap hero__grid">
+    <div class="hero__copy">
+      <p class="eyebrow" data-reveal><span class="eyebrow__dot" aria-hidden="true"></span>Early access list is open</p>
+      <h1 class="h1 hero__title" id="hero-title" data-split><span class="w"><span class="wi">Russian</span></span> <span class="w"><span class="wi">continuous</span></span> <span class="w"><span class="wi">glucose</span></span> <em class="u"><span class="w"><span class="wi">monitoring</span></span><svg class="u__line" viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 11.5C58 5.8 118 4.2 171 5.4c43 1 86 3.4 126 6.6" pathLength="1"/></svg></em> <span class="w"><span class="wi">system</span></span></h1>
+      <ul class="ticker" data-ticker data-reveal>
+                <li class="ticker__item is-active">15 days on one sensor</li>
+                <li class="ticker__item">no fingerstick calibration</li>
+                <li class="ticker__item">readings right on your phone</li>
+                <li class="ticker__item">AI nutrition assistant</li>
+              </ul>
+      <p class="lead hero__lead" data-reveal>The sensor, app and cloud already work. Now we are launching production in Russia and gathering people who want to get the system among the first.</p>
+      <a class="btn btn--primary hero__cta btn--magnetic" href="#hero-form" data-reveal>Join the list<svg class="icon btn__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+      <div class="hero__benefits" data-reveal>
+        <p class="hero__benefits-title">First on the list get</p>
+        <ul class="benefits">
+                    <li class="benefits__item"><svg class="icon benefits__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>purchase priority</span></li>
+                    <li class="benefits__item"><svg class="icon benefits__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>special terms</span></li>
+                    <li class="benefits__item"><svg class="icon benefits__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>a chance to take part in clinical trials</span></li>
+                    <li class="benefits__item"><svg class="icon benefits__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>news before anyone else</span></li>
+                  </ul>
+      </div>
+    </div>
+    <div class="hero__form" id="hero-form" data-reveal="card">
+      <div class="glass glass--dark glass--blur form-card">
+        <form class="lead-form lead-form--dark" id="form-hero" data-lead-form="hero" action="../api/lead.php" method="post" novalidate>
+  <div class="lead-form__main">
+    <div class="lead-form__head">
+      <h2 class="lead-form__title">Early access list</h2>
+      <p class="lead-form__sub">Takes less than a minute</p>
+    </div>
+
+    <div class="field" data-field="name">
+      <label class="field__label" for="hero-name">Name</label>
+      <div class="field__control">
+        <input class="field__input ym-disable-keys" id="hero-name" name="name" type="text" autocomplete="name" autocapitalize="words" enterkeyhint="next" maxlength="50" required placeholder="How should we address you" aria-describedby="hero-name-err">
+      </div>
+      <p class="field__error" id="hero-name-err"></p>
+    </div>
+
+    <div class="field field--phone" data-field="phone">
+      <label class="field__label" for="hero-phone">Phone</label>
+      <div class="field__control phone">
+        <button type="button" class="phone__country" data-cc-toggle aria-haspopup="dialog" aria-expanded="false" aria-label="Country code: +7">
+          <span class="phone__flag" data-cc-flag aria-hidden="true">🇷🇺</span>
+          <span class="phone__code" data-cc-code>+7</span>
+          <svg class="icon phone__chev" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9.5l6 6 6-6"/></svg>        </button>
+        <input class="field__input phone__input ym-disable-keys" id="hero-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" enterkeyhint="next" maxlength="24" required placeholder="Phone number" aria-describedby="hero-phone-err">
+        <input type="hidden" name="country" value="RU" data-cc-value>
+      </div>
+      <p class="field__error" id="hero-phone-err"></p>
+    </div>
+
+    <div class="field" data-field="email">
+      <label class="field__label" for="hero-email">E-mail</label>
+      <div class="field__control">
+        <input class="field__input ym-disable-keys" id="hero-email" name="email" type="email" inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" enterkeyhint="done" maxlength="254" required placeholder="name@example.com" aria-describedby="hero-email-err hero-email-hint">
+      </div>
+      <p class="field__hint" id="hero-email-hint" hidden></p>
+      <p class="field__error" id="hero-email-err"></p>
+    </div>
+
+    <div class="check" data-field="consent">
+      <input class="check__input" type="checkbox" id="hero-consent" name="consent" value="1" required aria-describedby="hero-consent-err">
+      <label class="check__label" for="hero-consent"><span class="check__box" aria-hidden="true"><svg class="icon check__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span><span class="check__text">I give my <a href="../en/consent/" target="_blank" rel="noopener">consent to personal data processing</a> and accept the <a href="../en/privacy/" target="_blank" rel="noopener">Privacy Policy</a></span></label>
+      <p class="field__error" id="hero-consent-err"></p>
+    </div>
+
+    <div class="check" data-field="news">
+      <input class="check__input" type="checkbox" id="hero-news" name="news" value="1">
+      <label class="check__label" for="hero-news"><span class="check__box" aria-hidden="true"><svg class="icon check__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span><span class="check__text">I want to receive project news. You can unsubscribe at any time</span></label>
+    </div>
+
+    <div class="hp" aria-hidden="true">
+      <label>Leave this field empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+    </div>
+    <input type="hidden" name="form" value="hero">
+    <input type="hidden" name="lang" value="en">
+
+    <button type="submit" class="btn btn--primary btn--block btn--magnetic lead-form__submit" data-submit>
+      <span class="btn__label">Join the list</span>
+      <span class="btn__label btn__label--busy" aria-hidden="true">Sending…</span>
+      <span class="btn__spinner" aria-hidden="true"></span>
+      <svg class="icon btn__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg>    </button>
+    <div class="lead-form__status" role="status" aria-live="polite" data-status></div>
+        <p class="lead-form__note">Demo version: the request is not sent anywhere</p>
+      </div>
+
+  <div class="lead-form__success" data-success hidden tabindex="-1">
+    <svg class="success-check" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+      <circle class="success-check__ring" cx="32" cy="32" r="28" pathLength="1"/>
+      <path class="success-check__tick" d="M20 33.5l8 8L45 24" pathLength="1"/>
+    </svg>
+    <p class="lead-form__success-title">Thank you! You&apos;re on the early access list</p>
+    <p class="lead-form__success-text">We&apos;ve saved your request and will write as soon as there is news about the launch.</p>
+    <button type="button" class="btn btn--small btn--ghost" data-again>Submit another request</button>
+  </div>
+  <span class="lead-form__burst" aria-hidden="true"></span>
+</form>
+      </div>
+    </div>
+  </div>
+  <a class="scroll-hint" href="#about" data-scroll-hint><span class="scroll-hint__text">Scroll</span><span class="scroll-hint__line" aria-hidden="true"></span></a>
+</section>
+
+<!-- 2. О нас -->
+<section class="sec about" id="about" data-sec="about" data-theme="light" aria-labelledby="about-title">
+  <div class="sec__bg" aria-hidden="true"></div>
+  <div class="about__inner" data-depth-out>
+    <div class="wrap about__intro">
+      <p class="eyebrow" data-reveal><span class="eyebrow__dot" aria-hidden="true"></span>About us</p>
+      <h2 class="h2 about__title" id="about-title" data-split><span class="w"><span class="wi">We&apos;re</span></span> <span class="w"><span class="wi">building</span></span> <span class="w"><span class="wi">a full-cycle</span></span> <span class="w"><span class="wi">CGM</span></span> <span class="w"><span class="wi">system</span></span> <span class="w"><span class="wi">and its</span></span> <span class="w"><span class="wi">production</span></span> <em class="u"><span class="w"><span class="wi">in</span></span> <span class="w"><span class="wi">Russia</span></span><svg class="u__line" viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 11.5C58 5.8 118 4.2 171 5.4c43 1 86 3.4 126 6.6" pathLength="1"/></svg></em></h2>
+      <div class="about__lead">
+                <p class="lead" data-reveal>TradeMedResource is a Russian manufacturer and distributor of a continuous glucose monitoring (CGM) system. We started development in 2022. Since then we have received our first patents, launched production in China and brought it to a stable process.</p>
+                <p class="lead" data-reveal>Now we are moving production to Russia and preparing the device for state registration.</p>
+              </div>
+    </div>
+
+    <div class="bignum" data-bignum>
+      <p class="sr-only">1,000,000+ devices a year — that&apos;s how many we plan to produce and sell</p>
+      <div class="bignum__track" aria-hidden="true" data-bignum-track>
+        <span class="bignum__sizer">1,000,000+</span>
+        <span class="bignum__value" data-count="1000000" data-suffix="+" data-locale="en-US">1,000,000+</span>
+      </div>
+      <p class="wrap bignum__caption" aria-hidden="true" data-reveal><span class="bignum__rule"></span>devices a year — that&apos;s how many we plan to produce and sell</p>
+    </div>
+
+    <div class="wrap">
+      <ul class="facts">
+                <li class="fact glass glass--light tilt" data-reveal="card" style="--i:0">
+          <p class="fact__value">
+                        <span class="fact__num" data-count="2022" data-plain="1">2022</span>
+                                  </p>
+          <p class="fact__label">development started</p>
+        </li>
+                <li class="fact glass glass--light tilt" data-reveal="card" style="--i:1">
+          <p class="fact__value">
+                        <span class="fact__num" data-count="15" data-plain="1">15</span>
+                        <span class="fact__unit">days</span>          </p>
+          <p class="fact__label">one sensor lasts</p>
+        </li>
+                <li class="fact glass glass--light tilt" data-reveal="card" style="--i:2">
+          <p class="fact__value">
+                        <span class="fact__num" data-count="2026" data-plain="1">2026</span>
+                                  </p>
+          <p class="fact__label">medical device registration starts in Russia</p>
+        </li>
+                <li class="fact glass glass--light tilt fact--wide" data-reveal="card" style="--i:3">
+          <p class="fact__value">
+                        <span class="fact__num fact__num--word">Full cycle</span>
+                                  </p>
+          <p class="fact__label">of production in Russia — being built right now</p>
+        </li>
+              </ul>
+
+      <h3 class="about__cards-title" data-reveal>Who we work with</h3>
+      <div class="cards-tilt" data-parallax>
+                <article class="pcard glass glass--light tilt" data-reveal="card" style="--i:0">
+          <span class="pcard__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M3.5 9.4L12 4.6l8.5 4.8"/><path d="M5.5 10.4v7.6M9.8 10.4v7.6M14.2 10.4v7.6M18.5 10.4v7.6"/><path d="M3.5 20.4h17"/></svg></span>
+          <h4 class="pcard__title">Agencies and institutions</h4>
+          <p class="pcard__text">We work with industry institutions and government agencies. We have signed several memorandums that confirm interest in our system.</p>
+                  </article>
+                <article class="pcard glass glass--light tilt" data-reveal="card" style="--i:1">
+          <span class="pcard__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="9" cy="8.6" r="3.2"/><path d="M3.4 19.2c.6-3.4 2.8-5.2 5.6-5.2s5 1.8 5.6 5.2"/><circle cx="16.6" cy="9.6" r="2.5"/><path d="M16.3 14.3c2.3.1 3.9 1.6 4.4 4.4"/></svg></span>
+          <h4 class="pcard__title">Patient community</h4>
+          <p class="pcard__text">We work with the patient community. Those who sign up first will hear about the launch before anyone else and get special terms.</p>
+                    <a class="link-arrow" href="#join">Join the list<svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                  </article>
+                <article class="pcard glass glass--light tilt" data-reveal="card" style="--i:2">
+          <span class="pcard__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.6"/><path d="M3.6 12h16.8"/><path d="M12 3.4c2.5 2.5 3.7 5.4 3.7 8.6s-1.2 6.1-3.7 8.6c-2.5-2.5-3.7-5.4-3.7-8.6S9.5 5.9 12 3.4z"/></svg></span>
+          <h4 class="pcard__title">Distribution</h4>
+          <p class="pcard__text">We are open to talks about regional and international distribution. Write to us and we&apos;ll discuss the terms.</p>
+                    <a class="link-arrow" href="#contacts">Discuss distribution<svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                  </article>
+              </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3. Устройство под шёлком -->
+<section class="sec device" id="device" data-sec="device" data-theme="dark" aria-labelledby="device-title">
+  <div class="sec__bg" aria-hidden="true"></div>
+  <div class="wrap device__head" data-depth-in>
+    <p class="eyebrow" data-reveal><span class="eyebrow__dot" aria-hidden="true"></span>The device</p>
+    <h2 class="h2" id="device-title" data-split><span class="w"><span class="wi">Still</span></span> <span class="w"><span class="wi">under</span></span> <span class="nw"><em class="u"><span class="w"><span class="wi">silk</span></span><svg class="u__line" viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 11.5C58 5.8 118 4.2 171 5.4c43 1 86 3.4 126 6.6" pathLength="1"/></svg></em><span class="w"><span class="wi">.</span></span></span> <span class="w"><span class="wi">But</span></span> <span class="w"><span class="wi">already</span></span> <span class="w"><span class="wi">working</span></span></h2>
+    <p class="lead device__lead" data-reveal>We&apos;ll show the design and name a little later. Here is what we can already tell you.</p>
+  </div>
+  <div class="wrap device__grid">
+    <div class="device__stage" data-stage role="img" aria-label="A sensor covered with silk fabric. The fabric ripples when you move the cursor or touch it">
+      <div class="device__fallback" aria-hidden="true"></div>
+      <p class="device__hint" aria-hidden="true">
+        <span class="device__hint-pointer"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6.5 3.8l11 6.4-4.9 1.4-2.3 5z"/><path d="M13 12.2l3.6 5.6"/></svg>Move the cursor over the fabric</span>
+        <span class="device__hint-touch"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="7.5" opacity=".5"/></svg>Touch the fabric</span>
+      </p>
+    </div>
+    <ul class="specs" data-specs>
+            <li class="spec glass glass--dark" data-reveal="card" style="--i:0" data-spec="0">
+        <span class="spec__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></span>
+        <span class="spec__body"><span class="spec__k">15 days</span><span class="spec__v">one sensor lasts</span></span>
+      </li>
+            <li class="spec glass glass--dark" data-reveal="card" style="--i:1" data-spec="1">
+        <span class="spec__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3.6s-5.8 6.2-5.8 10.2a5.8 5.8 0 0 0 11.6 0c0-4-5.8-10.2-5.8-10.2z"/><path d="M4.5 4.5l15 15"/></svg></span>
+        <span class="spec__body"><span class="spec__k">No calibration</span><span class="spec__v">no fingersticks and no separate reader</span></span>
+      </li>
+            <li class="spec glass glass--dark" data-reveal="card" style="--i:2" data-spec="2">
+        <span class="spec__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="7" y="2.8" width="10" height="18.4" rx="2.6"/><path d="M11 18h2"/></svg></span>
+        <span class="spec__body"><span class="spec__k">iOS and Android</span><span class="spec__v">real-time readings on your smartphone</span></span>
+      </li>
+            <li class="spec glass glass--dark" data-reveal="card" style="--i:3" data-spec="3">
+        <span class="spec__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M7.6 18.5h9.6a4 4 0 0 0 .5-7.96A5.6 5.6 0 0 0 6.9 9.6a4.5 4.5 0 0 0 .7 8.9z"/></svg></span>
+        <span class="spec__body"><span class="spec__k">Cloud</span><span class="spec__v">your doctor and family can see the data remotely</span></span>
+      </li>
+            <li class="spec glass glass--dark" data-reveal="card" style="--i:4" data-spec="4">
+        <span class="spec__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6.2 16.4V11a5.8 5.8 0 0 1 11.6 0v5.4l1.5 2.1H4.7z"/><path d="M10 20.6a2.1 2.1 0 0 0 4 0"/></svg></span>
+        <span class="spec__body"><span class="spec__k">Alerts</span><span class="spec__v">for low and high glucose</span></span>
+      </li>
+            <li class="spec glass glass--dark" data-reveal="card" style="--i:5" data-spec="5">
+        <span class="spec__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M11 3.5l1.7 5.1 5.1 1.7-5.1 1.7L11 17.1l-1.7-5.1-5.1-1.7 5.1-1.7z"/><path d="M18.3 14.6l.7 1.9 1.9.7-1.9.7-.7 1.9-.7-1.9-1.9-.7 1.9-.7z"/></svg></span>
+        <span class="spec__body"><span class="spec__k">AI assistant</span><span class="spec__v">recognizes food from a photo and shows how it affects glucose</span></span>
+      </li>
+            <li class="spec glass glass--dark" data-reveal="card" style="--i:6" data-spec="6">
+        <span class="spec__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 19.5C5 11.2 10.4 5.6 19.5 4.5c0 9-5.3 15-14.5 15z"/><path d="M5 19.5c2.7-4 5.7-6.7 9.2-8.7"/></svg></span>
+        <span class="spec__body"><span class="spec__k">Wellness mode</span><span class="spec__v">for those who watch their diet and activity</span></span>
+      </li>
+            <li class="spec glass glass--dark" data-reveal="card" style="--i:7" data-spec="7">
+        <span class="spec__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="6" width="12.6" height="12" rx="2.6"/><path d="M15.6 10.4l5.4-3v9.2l-5.4-3z"/></svg></span>
+        <span class="spec__body"><span class="spec__k">Telemedicine</span><span class="spec__v">integration with online consultation services</span></span>
+      </li>
+          </ul>
+    <svg class="device__callouts" data-callouts aria-hidden="true" focusable="false"></svg>
+  </div>
+  <div class="wrap device__foot" data-reveal>
+    <p class="device__caption">We&apos;ll reveal the design and name soon. Sign up to see them first.</p>
+    <a class="btn btn--primary btn--magnetic" href="#join">I want to see it first<svg class="icon btn__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  </div>
+</section>
+
+<!-- 4. Дорожная карта -->
+<section class="sec roadmap" id="roadmap" data-sec="roadmap" data-theme="dark" aria-labelledby="roadmap-title" data-roadmap>
+  <div class="sec__bg" aria-hidden="true"></div>
+  <div class="roadmap__pin" data-rm-pin>
+    <div class="wrap roadmap__head">
+      <div>
+        <p class="eyebrow" data-reveal><span class="eyebrow__dot" aria-hidden="true"></span>Roadmap</p>
+        <h2 class="h2" id="roadmap-title" data-split><span class="w"><span class="wi">Our path</span></span> <span class="w"><span class="wi">since</span></span> <em class="u"><span class="w"><span class="wi">2022</span></span><svg class="u__line" viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 11.5C58 5.8 118 4.2 171 5.4c43 1 86 3.4 126 6.6" pathLength="1"/></svg></em></h2>
+        <p class="lead roadmap__lead" data-reveal>Nine steps from the idea to the Russian market. We are on the sixth.</p>
+      </div>
+      <ul class="rm-legend" data-reveal aria-hidden="true">
+        <li class="rm-legend__item rm-legend__item--done"><i></i>Done</li>
+        <li class="rm-legend__item rm-legend__item--current"><i></i>We are here</li>
+        <li class="rm-legend__item rm-legend__item--next"><i></i>Ahead</li>
+      </ul>
+    </div>
+    <div class="roadmap__viewport" data-rm-viewport>
+      <div class="roadmap__track" data-rm-track style="--count:9;--current:5">
+        <svg class="rm-path" data-rm-svg aria-hidden="true" focusable="false">
+          <path class="rm-path__base" data-rm-base/>
+          <path class="rm-path__done" data-rm-done/>
+          <path class="rm-path__next" data-rm-next/>
+        </svg>
+        <span class="rm-vline" aria-hidden="true"><span class="rm-vline__fill" data-rm-vfill></span></span>
+        <ol class="stages">
+                    <li class="stage stage--done stage--high" data-stage-i="0" style="--i:0">
+            <span class="stage__dot" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">01</span><span class="stage__year">2022</span></p>
+              <h3 class="stage__title">R&amp;D launch</h3>
+              <p class="stage__text">Started developing the sensor, app and cloud</p>
+              <p class="stage__status">Done</p>
+            </div>
+          </li>
+                    <li class="stage stage--done stage--low" data-stage-i="1" style="--i:1">
+            <span class="stage__dot" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">02</span></p>
+              <h3 class="stage__title">First patents</h3>
+              <p class="stage__text">Protected our key technical solutions</p>
+              <p class="stage__status">Done</p>
+            </div>
+          </li>
+                    <li class="stage stage--done stage--high" data-stage-i="2" style="--i:2">
+            <span class="stage__dot" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">03</span></p>
+              <h3 class="stage__title">Production in China</h3>
+              <p class="stage__text">Launched manufacturing at a site in China</p>
+              <p class="stage__status">Done</p>
+            </div>
+          </li>
+                    <li class="stage stage--done stage--low" data-stage-i="3" style="--i:3">
+            <span class="stage__dot" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">04</span></p>
+              <h3 class="stage__title">Process refinement</h3>
+              <p class="stage__text">Brought production to a stable result</p>
+              <p class="stage__status">Done</p>
+            </div>
+          </li>
+                    <li class="stage stage--done stage--high" data-stage-i="4" style="--i:4">
+            <span class="stage__dot" aria-hidden="true"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">05</span></p>
+              <h3 class="stage__title">International certification</h3>
+              <p class="stage__text">Started the procedure for foreign markets</p>
+              <p class="stage__status">Done</p>
+            </div>
+          </li>
+                    <li class="stage stage--current stage--low" data-stage-i="5" style="--i:5" aria-current="step">
+            <span class="stage__dot" aria-hidden="true"></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">06</span><span class="stage__year">2026</span></p>
+              <h3 class="stage__title">Production in Russia</h3>
+              <p class="stage__text">Launching our site and moving manufacturing</p>
+              <p class="stage__status">We are here</p>
+            </div>
+          </li>
+                    <li class="stage stage--next stage--high" data-stage-i="6" style="--i:6">
+            <span class="stage__dot" aria-hidden="true"></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">07</span></p>
+              <h3 class="stage__title">Registration in Russia</h3>
+              <p class="stage__text">Obtaining the medical device registration certificate</p>
+              <p class="stage__status">Ahead</p>
+            </div>
+          </li>
+                    <li class="stage stage--next stage--low" data-stage-i="7" style="--i:7">
+            <span class="stage__dot" aria-hidden="true"></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">08</span></p>
+              <h3 class="stage__title">Market entry</h3>
+              <p class="stage__text">Sales start in Russia</p>
+              <p class="stage__status">Ahead</p>
+            </div>
+          </li>
+                    <li class="stage stage--next stage--high" data-stage-i="8" style="--i:8">
+            <span class="stage__dot" aria-hidden="true"></span>
+            <div class="stage__card">
+              <p class="stage__meta"><span class="stage__num">09</span></p>
+              <h3 class="stage__title">Industrial products registry</h3>
+              <p class="stage__text">Inclusion in the registry of Russian industrial products (Government Decree No. 719)</p>
+              <p class="stage__status">Ahead</p>
+            </div>
+          </li>
+                  </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. Финальный оффер и форма -->
+<section class="sec join" id="join" data-sec="join" data-theme="dark" aria-labelledby="join-title" data-join>
+  <div class="sec__bg" aria-hidden="true"></div>
+  <div class="join__reveal" aria-hidden="true"><span class="join__circle" data-join-circle></span></div>
+  <div class="wrap join__grid">
+    <div class="join__copy">
+      <p class="eyebrow" data-reveal><span class="eyebrow__dot" aria-hidden="true"></span>Early access list</p>
+      <h2 class="h2 join__title" id="join-title" data-split><span class="w"><span class="wi">Be</span></span> <span class="w"><span class="wi">among</span></span> <span class="nw"><span class="w"><span class="wi">the </span></span><em class="u"><span class="w"><span class="wi">first</span></span><svg class="u__line" viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M3 11.5C58 5.8 118 4.2 171 5.4c43 1 86 3.4 126 6.6" pathLength="1"/></svg></em></span></h2>
+      <p class="lead" data-reveal>Leave your contacts — we&apos;ll write when we start and secure your priority.</p>
+      <ul class="benefits benefits--light" data-reveal>
+                <li class="benefits__item"><svg class="icon benefits__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>purchase priority</span></li>
+                <li class="benefits__item"><svg class="icon benefits__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>special terms</span></li>
+                <li class="benefits__item"><svg class="icon benefits__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>a chance to take part in clinical trials</span></li>
+                <li class="benefits__item"><svg class="icon benefits__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg><span>news before anyone else</span></li>
+              </ul>
+      <div class="faq" data-reveal>
+        <h3 class="faq__title">Quick answers</h3>
+                <details class="faq__item">
+          <summary class="faq__q"><span>What is early access?</span><svg class="icon faq__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></summary>
+          <p class="faq__a">It&apos;s a list of people who want to hear about the system first. When we start, we&apos;ll write to you before everyone else and offer special terms for the first users.</p>
+        </details>
+                <details class="faq__item">
+          <summary class="faq__q"><span>When will the device be available?</span><svg class="icon faq__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></summary>
+          <p class="faq__a">We are now launching production in Russia and preparing the device for state registration. Sales will start after registration — we&apos;ll let you know by e-mail or phone.</p>
+        </details>
+                <details class="faq__item">
+          <summary class="faq__q"><span>Can I take part in trials?</span><svg class="icon faq__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></summary>
+          <p class="faq__a">If clinical trials need participants, we&apos;ll write to people on the list and explain the terms. Participation is voluntary.</p>
+        </details>
+                <details class="faq__item">
+          <summary class="faq__q"><span>What happens to my data?</span><svg class="icon faq__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14"/></svg></summary>
+          <p class="faq__a">We store it on servers in Russia and use it only to contact you about early access. You can withdraw your consent at any time — just write to us.</p>
+        </details>
+              </div>
+    </div>
+    <div class="join__form" id="join-form" data-reveal="card">
+      <div class="form-card form-card--light">
+        <form class="lead-form lead-form--light" id="form-final" data-lead-form="final" action="../api/lead.php" method="post" novalidate>
+  <div class="lead-form__main">
+    <div class="lead-form__head">
+      <h3 class="lead-form__title">Early access list</h3>
+      <p class="lead-form__sub">Takes less than a minute</p>
+    </div>
+
+    <div class="field" data-field="name">
+      <label class="field__label" for="final-name">Name</label>
+      <div class="field__control">
+        <input class="field__input ym-disable-keys" id="final-name" name="name" type="text" autocomplete="name" autocapitalize="words" enterkeyhint="next" maxlength="50" required placeholder="How should we address you" aria-describedby="final-name-err">
+      </div>
+      <p class="field__error" id="final-name-err"></p>
+    </div>
+
+    <div class="field field--phone" data-field="phone">
+      <label class="field__label" for="final-phone">Phone</label>
+      <div class="field__control phone">
+        <button type="button" class="phone__country" data-cc-toggle aria-haspopup="dialog" aria-expanded="false" aria-label="Country code: +7">
+          <span class="phone__flag" data-cc-flag aria-hidden="true">🇷🇺</span>
+          <span class="phone__code" data-cc-code>+7</span>
+          <svg class="icon phone__chev" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9.5l6 6 6-6"/></svg>        </button>
+        <input class="field__input phone__input ym-disable-keys" id="final-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" enterkeyhint="next" maxlength="24" required placeholder="Phone number" aria-describedby="final-phone-err">
+        <input type="hidden" name="country" value="RU" data-cc-value>
+      </div>
+      <p class="field__error" id="final-phone-err"></p>
+    </div>
+
+    <div class="field" data-field="email">
+      <label class="field__label" for="final-email">E-mail</label>
+      <div class="field__control">
+        <input class="field__input ym-disable-keys" id="final-email" name="email" type="email" inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" enterkeyhint="done" maxlength="254" required placeholder="name@example.com" aria-describedby="final-email-err final-email-hint">
+      </div>
+      <p class="field__hint" id="final-email-hint" hidden></p>
+      <p class="field__error" id="final-email-err"></p>
+    </div>
+
+    <div class="check" data-field="consent">
+      <input class="check__input" type="checkbox" id="final-consent" name="consent" value="1" required aria-describedby="final-consent-err">
+      <label class="check__label" for="final-consent"><span class="check__box" aria-hidden="true"><svg class="icon check__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span><span class="check__text">I give my <a href="../en/consent/" target="_blank" rel="noopener">consent to personal data processing</a> and accept the <a href="../en/privacy/" target="_blank" rel="noopener">Privacy Policy</a></span></label>
+      <p class="field__error" id="final-consent-err"></p>
+    </div>
+
+    <div class="check" data-field="news">
+      <input class="check__input" type="checkbox" id="final-news" name="news" value="1">
+      <label class="check__label" for="final-news"><span class="check__box" aria-hidden="true"><svg class="icon check__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg></span><span class="check__text">I want to receive project news. You can unsubscribe at any time</span></label>
+    </div>
+
+    <div class="hp" aria-hidden="true">
+      <label>Leave this field empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+    </div>
+    <input type="hidden" name="form" value="final">
+    <input type="hidden" name="lang" value="en">
+
+    <button type="submit" class="btn btn--primary btn--block btn--magnetic lead-form__submit" data-submit>
+      <span class="btn__label">Join the list</span>
+      <span class="btn__label btn__label--busy" aria-hidden="true">Sending…</span>
+      <span class="btn__spinner" aria-hidden="true"></span>
+      <svg class="icon btn__icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg>    </button>
+    <div class="lead-form__status" role="status" aria-live="polite" data-status></div>
+        <p class="lead-form__note">Demo version: the request is not sent anywhere</p>
+      </div>
+
+  <div class="lead-form__success" data-success hidden tabindex="-1">
+    <svg class="success-check" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+      <circle class="success-check__ring" cx="32" cy="32" r="28" pathLength="1"/>
+      <path class="success-check__tick" d="M20 33.5l8 8L45 24" pathLength="1"/>
+    </svg>
+    <p class="lead-form__success-title">Thank you! You&apos;re on the early access list</p>
+    <p class="lead-form__success-text">We&apos;ve saved your request and will write as soon as there is news about the launch.</p>
+    <button type="button" class="btn btn--small btn--ghost" data-again>Submit another request</button>
+  </div>
+  <span class="lead-form__burst" aria-hidden="true"></span>
+</form>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="ftr sec" id="contacts" data-sec="footer" data-theme="dark">
+  <div class="sec__bg" aria-hidden="true"></div>
+  <div class="wrap ftr__grid">
+    <div class="ftr__brand">
+      <a class="ftr__logo" href="#top" aria-label="TMR — home"><span class="logo-h"><svg class="logo logo-h__mark" viewBox="0 -0.5 69.6 25" role="img" aria-label="TradeMedResource" focusable="false"><g fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path class="logo__t" pathLength="1" stroke="currentColor" d="M2 2H18M10 2V22"/><path class="logo__m" pathLength="1" stroke="currentColor" d="M23.5 22V9C23.5 -1 30.5 -1 34.5 11C38.5 -1 45.5 -1 45.5 9V22"/><path class="logo__r" pathLength="1" stroke="currentColor" d="M53.5 22V2H60.5A6 6 0 0 1 60.5 14H53.5M61 14L67.5 22"/></g></svg><span class="logo-h__name" aria-hidden="true">TradeMedResource</span></span></a>
+      <p class="ftr__about">Treydmedresurs LLC is a Russian manufacturer and distributor of a continuous glucose monitoring system.</p>
+    </div>
+    <nav class="ftr__col" aria-labelledby="ftr-sections">
+      <h2 class="ftr__h" id="ftr-sections">Sections</h2>
+      <ul class="ftr__list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#device">Device</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#join">Early access</a></li>
+      </ul>
+    </nav>
+    <nav class="ftr__col" aria-labelledby="ftr-docs">
+      <h2 class="ftr__h" id="ftr-docs">Documents</h2>
+      <ul class="ftr__list">
+        <li><a href="../en/privacy/">Privacy Policy</a></li>
+        <li><a href="../en/consent/">Consent to Personal Data Processing</a></li>
+      </ul>
+    </nav>
+    <div class="ftr__col">
+      <h2 class="ftr__h">Contacts</h2>
+      <ul class="ftr__list ftr__contacts">
+                <li>
+                    <span class="contact contact--soon">
+            <span class="contact__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7.5l8 5.5 8-5.5"/></svg></span>
+            <span class="contact__body"><span class="contact__label">E-mail</span><span class="contact__value">coming soon</span></span>
+          </span>
+                  </li>
+                <li>
+                    <span class="contact contact--soon">
+            <span class="contact__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20.6 4.4L3.4 11.1l5.8 2.1 2.1 6.4 3.1-3.8 4.6 3.4z"/><path d="M9.2 13.2l7.6-5.6"/></svg></span>
+            <span class="contact__body"><span class="contact__label">Telegram</span><span class="contact__value">coming soon</span></span>
+          </span>
+                  </li>
+                <li>
+                    <span class="contact contact--soon">
+            <span class="contact__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3.6a8.4 8.4 0 0 0-7.3 12.6L3.6 20.4l4.3-1.1A8.4 8.4 0 1 0 12 3.6z"/><path d="M8.6 12h6.8"/></svg></span>
+            <span class="contact__body"><span class="contact__label">MAX</span><span class="contact__value">coming soon</span></span>
+          </span>
+                  </li>
+              </ul>
+    </div>
+    <div class="ftr__col ftr__req">
+      <h2 class="ftr__h">Company details</h2>
+      <p class="ftr__req-text">Treydmedresurs LLC<br>TIN 9726115287 · OGRN 1267700201460<br>Premises 1/10, bldg. 12, 26 Varshavskoye Hwy, Moscow, 117105, Russia</p>
+    </div>
+  </div>
+  <div class="wrap ftr__bottom">
+    <p class="ftr__disclaimer">The medical device is being prepared for state registration in Russia. Information on this website is not a public offer.</p>
+    <div class="ftr__row">
+      <p class="ftr__copy">© 2026 Treydmedresurs LLC</p>
+      <a class="ftr__top" href="#top" data-to-top>Back to top<svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 19V5M6 11l6-6 6 6"/></svg></a>
+    </div>
+  </div>
+</footer>
+<div class="cookie" data-cookie hidden>
+  <p class="cookie__text">We use cookies and Yandex Metrica to make the website work better. Learn more in our <a href="../en/privacy/">Privacy Policy</a>.</p>
+  <button type="button" class="btn btn--small btn--light cookie__ok" data-cookie-ok>Got it</button>
+</div>
+<div class="toast" data-lang-suggest hidden lang="ru">
+  <p class="toast__text">У сайта есть русская версия.</p>
+  <div class="toast__actions">
+    <a class="btn btn--small btn--light" href="../" data-lang-go hreflang="ru">Перейти на русский</a>
+    <button type="button" class="btn btn--small btn--ghost" data-lang-stay>Остаться</button>
+  </div>
+</div>
+<div class="demo-badge" aria-hidden="true">Demo version</div>
+<script type="application/json" id="app-data">{"lang":"en","locale":"en-US","mode":"demo","api":"../api/lead.php","consentVersion":"2026-09-18","defaultCountry":"RU","popular":["RU","KZ","BY","UZ","KG","AM"],"email":"","metrika":"","otherLang":"../","form":{"title":"Early access list","sub":"Takes less than a minute","name":{"label":"Name","placeholder":"How should we address you"},"phone":{"label":"Phone","country":"Country code","search":"Country or code","noResults":"Nothing found","popular":"Popular","all":"All countries","placeholder":"Phone number"},"email":{"label":"E-mail","placeholder":"name@example.com"},"consentText":"I give my {consent} and accept the {privacy}","consentLink":"consent to personal data processing","privacyLink":"Privacy Policy","news":"I want to receive project news. You can unsubscribe at any time","honeypot":"Leave this field empty","submit":"Join the list","sending":"Sending…","demoNote":"Demo version: the request is not sent anywhere","emailSuggest":"Did you mean {email}?","fallback":"If it doesn't work, write to us: {email}","errors":{"nameRequired":"Enter your name in letters — at least 2 characters","nameInvalid":"Please use letters only, no digits or symbols","phoneRequired":"Enter your phone number","phoneInvalid":"Check the number: it doesn't match the format for {country}","phoneRu":"Check the number: Russian numbers have 10 digits after +7","emailRequired":"Enter your e-mail","emailInvalid":"Looks like there's a typo. Example: name@example.com","consent":"We can't accept the request without your consent","summary":"Please check the fields marked in red","network":"Couldn't send. Check your connection and try again","rate":"Too many requests in a row. Please try again a bit later","server":"Something went wrong on our side. Try again or write to us"},"retry":"Try again","success":{"title":"Thank you! You're on the early access list","text":"We've saved your request and will write as soon as there is news about the launch.","again":"Submit another request"}},"ui":{"openMenu":"Open menu","closeMenu":"Close menu"},"fx":{"_about":"Параметры анимаций и 3D-сцены (ANIM-15, EDIT-04). Цвета — HEX, скорости — множители. Правится без пересборки: файл читается при выводе страницы.","palette":{"hero":{"a":"#0B1E40","b":"#11306A","c":"#1F5CA8","spot1":"#009FE1","spot2":"#2EE6C5","edge":"#1F5CA8"},"about":{"a":"#F0F4FE","b":"#E3ECFC","c":"#EFE7F7","spot1":"#9CCEF6","spot2":"#D9C4EC","light":true,"edge":"#3C9BF5"},"device":{"a":"#040A17","b":"#08132C","c":"#132456","spot1":"#2EE6C5","spot2":"#A77BA5","edge":"#7A62D6"},"roadmap":{"a":"#0B6FB0","b":"#6E5690","c":"#1B5AA0","spot1":"#2EE6C5","spot2":"#57B8F0","edge":"#2EE6C5"},"join":{"a":"#0A2A6B","b":"#123C8C","c":"#1D5FD0","spot1":"#2EE6C5","spot2":"#A77BA5","edge":"#3D8BF0"},"footer":{"a":"#0D2450","b":"#102A56","c":"#16366B","spot1":"#009FE1","spot2":"#A77BA5","edge":"#1B3F7A"}},"flow":{"speed":0.075,"warp":1,"grain":0.03,"blend":0.11,"edge":0.7},"spots":{"follow":0.075,"size":0.3,"intensity":0.5,"burst":1},"silk":{"colorA":"#2B8FE3","colorB":"#A77BA5","colorC":"#172A63","sheen":"#E8F7FF","sheen2":"#2EE6C5","rim":"#7AD4FF","speed":1,"amplitude":1,"opacityMobile":0.72},"drape":{"colorA":"#A9CDF5","colorB":"#BBA6DF","colorC":"#161D4A","sheen":"#FFFFFF","sheen2":"#2EE6C5","rim":"#9C86D8","breath":1,"ripple":1,"tilt":50,"turn":-14,"spec":0.62},"quality":{"maxDpr":1.75,"mobileMaxDpr":1.35,"bgScale":0.5,"mobileBgScale":0.34,"minFps":50}}}</script></body>
+</html>
