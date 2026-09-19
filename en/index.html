@@ -28,9 +28,9 @@
 <link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="preload" href="../assets/media/inter-latin-wght-normal-NRMW37G5.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../assets/css/main-EVFWITFS.css">
+<link rel="stylesheet" href="../assets/css/main-SLTPYIFW.css">
 <script>(function(d){var h=d.documentElement;h.className=h.className.replace('no-js','js');try{if(matchMedia('(prefers-reduced-motion: reduce)').matches)h.className+=' rm'}catch(e){}})(document);</script>
-<script type="module" src="../assets/js/main-G2UYJJTF.js"></script>
+<script type="module" src="../assets/js/main-KVJM3MNB.js"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Treydmedresurs LLC","alternateName":["TradeMedResource","TMR"],"url":"https://krokikro.github.io/tmr-demo/","logo":"https://krokikro.github.io/tmr-demo/icon-512.png","taxID":"9726115287","address":{"@type":"PostalAddress","streetAddress":"26 Varshavskoye Hwy, bldg. 12, premises 1/10","addressLocality":"Moscow","postalCode":"117105","addressCountry":"RU"}}</script>
 </head>
 <body class="page page--home">
@@ -166,13 +166,60 @@
       </div>
 
   <div class="lead-form__success" data-success hidden tabindex="-1">
-    <svg class="success-check" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-      <circle class="success-check__ring" cx="32" cy="32" r="28" pathLength="1"/>
-      <path class="success-check__tick" d="M20 33.5l8 8L45 24" pathLength="1"/>
-    </svg>
-    <p class="lead-form__success-title">Thank you! You&apos;re on the early access list</p>
-    <p class="lead-form__success-text">We&apos;ve saved your request and will write as soon as there is news about the launch.</p>
-    <button type="button" class="btn btn--small btn--ghost" data-again>Submit another request</button>
+    <div class="lead-form__success-head">
+      <svg class="success-check" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <circle class="success-check__ring" cx="32" cy="32" r="28" pathLength="1"/>
+        <path class="success-check__tick" d="M20 33.5l8 8L45 24" pathLength="1"/>
+      </svg>
+      <p class="lead-form__success-title" data-success-title>Thank you! You&apos;re on the early access list</p>
+      <p class="lead-form__success-text" data-success-text>We&apos;ve saved your request. Two more questions will help us prepare for the launch — they&apos;re optional.</p>
+    </div>
+
+        <div class="survey" data-survey>
+      <fieldset class="survey__q ym-hide-content" data-q="purpose">
+        <legend class="survey__label">How do you plan to use the system?</legend>
+        <div class="chips">
+                    <label class="chip"><input class="chip__input" type="radio" name="purpose" value="self"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>For myself</span></label>
+                    <label class="chip"><input class="chip__input" type="radio" name="purpose" value="child"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>For my child</span></label>
+                    <label class="chip"><input class="chip__input" type="radio" name="purpose" value="relative"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>For a loved one</span></label>
+                    <label class="chip"><input class="chip__input" type="radio" name="purpose" value="wellness"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>For nutrition and fitness</span></label>
+                  </div>
+      </fieldset>
+
+      <fieldset class="survey__q ym-hide-content" data-q="cgm">
+        <legend class="survey__label">Which glucose monitoring systems have you used? <span class="survey__hint">Select all that apply</span></legend>
+        <div class="chips">
+                    <label class="chip"><input class="chip__input" type="checkbox" name="cgm" value="libre"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>FreeStyle Libre</span></label>
+                    <label class="chip"><input class="chip__input" type="checkbox" name="cgm" value="dexcom"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>Dexcom</span></label>
+                    <label class="chip"><input class="chip__input" type="checkbox" name="cgm" value="medtronic"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>Medtronic Guardian</span></label>
+                    <label class="chip"><input class="chip__input" type="checkbox" name="cgm" value="sibionics"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>Sibionics / Hematonix</span></label>
+                    <label class="chip"><input class="chip__input" type="checkbox" name="cgm" value="linx"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>Lumiflex Linx / AiDEX</span></label>
+                    <label class="chip"><input class="chip__input" type="checkbox" name="cgm" value="other" aria-controls="hero-cgm-other" aria-expanded="false" data-cgm-other><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>Other</span></label>
+          <label class="chip"><input class="chip__input" type="checkbox" name="cgm" value="none" data-cgm-none><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>None yet</span></label>
+        </div>
+        <div class="field survey__other" id="hero-cgm-other" data-field="cgmOther" hidden>
+          <label class="sr-only" for="hero-cgm-other-input">Other: Which one</label>
+          <div class="field__control">
+            <input class="field__input ym-disable-keys" id="hero-cgm-other-input" name="cgmOther" type="text" maxlength="60" autocomplete="off" enterkeyhint="send" placeholder="Which one" aria-describedby="hero-cgm-other-err">
+          </div>
+          <p class="field__error" id="hero-cgm-other-err"></p>
+        </div>
+      </fieldset>
+
+      <div class="lead-form__status" role="status" aria-live="polite" data-survey-status></div>
+      <div class="survey__actions">
+        <button type="button" class="btn btn--primary btn--block lead-form__submit" data-survey-send>
+          <span class="btn__label">Send answers</span>
+          <span class="btn__label btn__label--busy" aria-hidden="true">Sending…</span>
+          <span class="btn__spinner" aria-hidden="true"></span>
+        </button>
+        <button type="button" class="btn btn--small btn--ghost survey__skip" data-survey-skip>Skip</button>
+      </div>
+    </div>
+
+    <div class="survey-done" data-survey-done hidden>
+      <button type="button" class="btn btn--small btn--ghost" data-again>Submit another request</button>
+    </div>
   </div>
   <span class="lead-form__burst" aria-hidden="true"></span>
 </form>
@@ -195,11 +242,11 @@
               </div>
     </div>
 
-    <div class="bignum" data-bignum>
+        <div class="bignum bignum--fit" data-bignum="fit">
       <p class="sr-only">1,000,000+ devices a year — that&apos;s how many we plan to produce and sell</p>
       <div class="bignum__track" aria-hidden="true" data-bignum-track>
         <span class="bignum__sizer">1,000,000+</span>
-        <span class="bignum__value" data-count="1000000" data-suffix="+" data-locale="en-US">1,000,000+</span>
+        <span class="bignum__value" data-count="1000000" data-suffix="+" data-locale="en-US" data-count-scroll>1,000,000+</span>
       </div>
       <p class="wrap bignum__caption" aria-hidden="true" data-reveal><span class="bignum__rule"></span>devices a year — that&apos;s how many we plan to produce and sell</p>
     </div>
@@ -268,7 +315,7 @@
     <p class="lead device__lead" data-reveal>We&apos;ll show the design and name a little later. Here is what we can already tell you.</p>
   </div>
   <div class="wrap device__grid">
-    <div class="device__stage" data-stage role="img" aria-label="A sensor covered with silk fabric. The fabric ripples when you move the cursor or touch it">
+    <div class="device__stage" data-stage role="img" aria-label="An applicator and a sensor covered with fabric. The fabric responds when you move the cursor or touch it">
       <div class="device__fallback" aria-hidden="true"></div>
       <p class="device__hint" aria-hidden="true">
         <span class="device__hint-pointer"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6.5 3.8l11 6.4-4.9 1.4-2.3 5z"/><path d="M13 12.2l3.6 5.6"/></svg>Move the cursor over the fabric</span>
@@ -530,13 +577,60 @@
       </div>
 
   <div class="lead-form__success" data-success hidden tabindex="-1">
-    <svg class="success-check" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
-      <circle class="success-check__ring" cx="32" cy="32" r="28" pathLength="1"/>
-      <path class="success-check__tick" d="M20 33.5l8 8L45 24" pathLength="1"/>
-    </svg>
-    <p class="lead-form__success-title">Thank you! You&apos;re on the early access list</p>
-    <p class="lead-form__success-text">We&apos;ve saved your request and will write as soon as there is news about the launch.</p>
-    <button type="button" class="btn btn--small btn--ghost" data-again>Submit another request</button>
+    <div class="lead-form__success-head">
+      <svg class="success-check" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+        <circle class="success-check__ring" cx="32" cy="32" r="28" pathLength="1"/>
+        <path class="success-check__tick" d="M20 33.5l8 8L45 24" pathLength="1"/>
+      </svg>
+      <p class="lead-form__success-title" data-success-title>Thank you! You&apos;re on the early access list</p>
+      <p class="lead-form__success-text" data-success-text>We&apos;ve saved your request. Two more questions will help us prepare for the launch — they&apos;re optional.</p>
+    </div>
+
+        <div class="survey" data-survey>
+      <fieldset class="survey__q ym-hide-content" data-q="purpose">
+        <legend class="survey__label">How do you plan to use the system?</legend>
+        <div class="chips">
+                    <label class="chip"><input class="chip__input" type="radio" name="purpose" value="self"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>For myself</span></label>
+                    <label class="chip"><input class="chip__input" type="radio" name="purpose" value="child"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>For my child</span></label>
+                    <label class="chip"><input class="chip__input" type="radio" name="purpose" value="relative"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>For a loved one</span></label>
+                    <label class="chip"><input class="chip__input" type="radio" name="purpose" value="wellness"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>For nutrition and fitness</span></label>
+                  </div>
+      </fieldset>
+
+      <fieldset class="survey__q ym-hide-content" data-q="cgm">
+        <legend class="survey__label">Which glucose monitoring systems have you used? <span class="survey__hint">Select all that apply</span></legend>
+        <div class="chips">
+                    <label class="chip"><input class="chip__input" type="checkbox" name="cgm" value="libre"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>FreeStyle Libre</span></label>
+                    <label class="chip"><input class="chip__input" type="checkbox" name="cgm" value="dexcom"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>Dexcom</span></label>
+                    <label class="chip"><input class="chip__input" type="checkbox" name="cgm" value="medtronic"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>Medtronic Guardian</span></label>
+                    <label class="chip"><input class="chip__input" type="checkbox" name="cgm" value="sibionics"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>Sibionics / Hematonix</span></label>
+                    <label class="chip"><input class="chip__input" type="checkbox" name="cgm" value="linx"><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>Lumiflex Linx / AiDEX</span></label>
+                    <label class="chip"><input class="chip__input" type="checkbox" name="cgm" value="other" aria-controls="final-cgm-other" aria-expanded="false" data-cgm-other><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>Other</span></label>
+          <label class="chip"><input class="chip__input" type="checkbox" name="cgm" value="none" data-cgm-none><span class="chip__box"><svg class="icon chip__tick" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12.5l4.2 4.2L19 7"/></svg>None yet</span></label>
+        </div>
+        <div class="field survey__other" id="final-cgm-other" data-field="cgmOther" hidden>
+          <label class="sr-only" for="final-cgm-other-input">Other: Which one</label>
+          <div class="field__control">
+            <input class="field__input ym-disable-keys" id="final-cgm-other-input" name="cgmOther" type="text" maxlength="60" autocomplete="off" enterkeyhint="send" placeholder="Which one" aria-describedby="final-cgm-other-err">
+          </div>
+          <p class="field__error" id="final-cgm-other-err"></p>
+        </div>
+      </fieldset>
+
+      <div class="lead-form__status" role="status" aria-live="polite" data-survey-status></div>
+      <div class="survey__actions">
+        <button type="button" class="btn btn--primary btn--block lead-form__submit" data-survey-send>
+          <span class="btn__label">Send answers</span>
+          <span class="btn__label btn__label--busy" aria-hidden="true">Sending…</span>
+          <span class="btn__spinner" aria-hidden="true"></span>
+        </button>
+        <button type="button" class="btn btn--small btn--ghost survey__skip" data-survey-skip>Skip</button>
+      </div>
+    </div>
+
+    <div class="survey-done" data-survey-done hidden>
+      <button type="button" class="btn btn--small btn--ghost" data-again>Submit another request</button>
+    </div>
   </div>
   <span class="lead-form__burst" aria-hidden="true"></span>
 </form>
@@ -616,5 +710,5 @@
   </div>
 </div>
 <div class="demo-badge" aria-hidden="true">Demo version</div>
-<script type="application/json" id="app-data">{"lang":"en","locale":"en-US","mode":"demo","api":"../api/lead.php","consentVersion":"2026-09-18","defaultCountry":"RU","popular":["RU","KZ","BY","UZ","KG","AM"],"email":"","metrika":"","otherLang":"../","form":{"title":"Early access list","sub":"Takes less than a minute","name":{"label":"Name","placeholder":"How should we address you"},"phone":{"label":"Phone","country":"Country code","search":"Country or code","noResults":"Nothing found","popular":"Popular","all":"All countries","placeholder":"Phone number"},"email":{"label":"E-mail","placeholder":"name@example.com"},"consentText":"I give my {consent} and accept the {privacy}","consentLink":"consent to personal data processing","privacyLink":"Privacy Policy","news":"I want to receive project news. You can unsubscribe at any time","honeypot":"Leave this field empty","submit":"Join the list","sending":"Sending…","demoNote":"Demo version: the request is not sent anywhere","emailSuggest":"Did you mean {email}?","fallback":"If it doesn't work, write to us: {email}","errors":{"nameRequired":"Enter your name in letters — at least 2 characters","nameInvalid":"Please use letters only, no digits or symbols","phoneRequired":"Enter your phone number","phoneInvalid":"Check the number: it doesn't match the format for {country}","phoneRu":"Check the number: Russian numbers have 10 digits after +7","emailRequired":"Enter your e-mail","emailInvalid":"Looks like there's a typo. Example: name@example.com","consent":"We can't accept the request without your consent","summary":"Please check the fields marked in red","network":"Couldn't send. Check your connection and try again","rate":"Too many requests in a row. Please try again a bit later","server":"Something went wrong on our side. Try again or write to us"},"retry":"Try again","success":{"title":"Thank you! You're on the early access list","text":"We've saved your request and will write as soon as there is news about the launch.","again":"Submit another request"}},"ui":{"openMenu":"Open menu","closeMenu":"Close menu"},"fx":{"_about":"Параметры анимаций и 3D-сцены (ANIM-15, EDIT-04). Цвета — HEX, скорости — множители. Правится без пересборки: файл читается при выводе страницы.","palette":{"hero":{"a":"#0B1E40","b":"#11306A","c":"#1F5CA8","spot1":"#009FE1","spot2":"#2EE6C5","edge":"#1F5CA8"},"about":{"a":"#F0F4FE","b":"#E3ECFC","c":"#EFE7F7","spot1":"#9CCEF6","spot2":"#D9C4EC","light":true,"edge":"#3C9BF5"},"device":{"a":"#040A17","b":"#08132C","c":"#132456","spot1":"#2EE6C5","spot2":"#A77BA5","edge":"#7A62D6"},"roadmap":{"a":"#0B6FB0","b":"#6E5690","c":"#1B5AA0","spot1":"#2EE6C5","spot2":"#57B8F0","edge":"#2EE6C5"},"join":{"a":"#0A2A6B","b":"#123C8C","c":"#1D5FD0","spot1":"#2EE6C5","spot2":"#A77BA5","edge":"#3D8BF0"},"footer":{"a":"#0D2450","b":"#102A56","c":"#16366B","spot1":"#009FE1","spot2":"#A77BA5","edge":"#1B3F7A"}},"flow":{"speed":0.075,"warp":1,"grain":0.03,"blend":0.11,"edge":0.7},"spots":{"follow":0.075,"size":0.3,"intensity":0.5,"burst":1},"silk":{"colorA":"#2B8FE3","colorB":"#A77BA5","colorC":"#172A63","sheen":"#E8F7FF","sheen2":"#2EE6C5","rim":"#7AD4FF","speed":1,"amplitude":1,"opacityMobile":0.72},"drape":{"colorA":"#A9CDF5","colorB":"#BBA6DF","colorC":"#161D4A","sheen":"#FFFFFF","sheen2":"#2EE6C5","rim":"#9C86D8","breath":1,"ripple":1,"tilt":50,"turn":-14,"spec":0.62},"quality":{"maxDpr":1.75,"mobileMaxDpr":1.35,"bgScale":0.5,"mobileBgScale":0.34,"minFps":50}}}</script></body>
+<script type="application/json" id="app-data">{"lang":"en","locale":"en-US","mode":"demo","api":"../api/lead.php","consentVersion":"2026-09-19","defaultCountry":"RU","popular":["RU","KZ","BY","UZ","KG","AM"],"email":"","metrika":"","otherLang":"../","form":{"title":"Early access list","sub":"Takes less than a minute","name":{"label":"Name","placeholder":"How should we address you"},"phone":{"label":"Phone","country":"Country code","search":"Country or code","noResults":"Nothing found","popular":"Popular","all":"All countries","placeholder":"Phone number"},"email":{"label":"E-mail","placeholder":"name@example.com"},"consentText":"I give my {consent} and accept the {privacy}","consentLink":"consent to personal data processing","privacyLink":"Privacy Policy","news":"I want to receive project news. You can unsubscribe at any time","honeypot":"Leave this field empty","submit":"Join the list","sending":"Sending…","demoNote":"Demo version: the request is not sent anywhere","emailSuggest":"Did you mean {email}?","fallback":"If it doesn't work, write to us: {email}","errors":{"nameRequired":"Enter your name in letters — at least 2 characters","nameInvalid":"Please use letters only, no digits or symbols","phoneRequired":"Enter your phone number","phoneInvalid":"Check the number: it doesn't match the format for {country}","phoneRu":"Check the number: Russian numbers have 10 digits after +7","emailRequired":"Enter your e-mail","emailInvalid":"Looks like there's a typo. Example: name@example.com","consent":"We can't accept the request without your consent","summary":"Please check the fields marked in red","network":"Couldn't send. Check your connection and try again","rate":"Too many requests in a row. Please try again a bit later","server":"Something went wrong on our side. Try again or write to us"},"retry":"Try again","success":{"title":"Thank you! You're on the early access list","text":"We've saved your request. Two more questions will help us prepare for the launch — they're optional.","again":"Submit another request"},"survey":{"purpose":{"label":"How do you plan to use the system?","options":[{"id":"self","label":"For myself"},{"id":"child","label":"For my child"},{"id":"relative","label":"For a loved one"},{"id":"wellness","label":"For nutrition and fitness"}]},"cgm":{"label":"Which glucose monitoring systems have you used?","hint":"Select all that apply","options":[{"id":"libre","label":"FreeStyle Libre"},{"id":"dexcom","label":"Dexcom"},{"id":"medtronic","label":"Medtronic Guardian"},{"id":"sibionics","label":"Sibionics / Hematonix"},{"id":"linx","label":"Lumiflex Linx / AiDEX"}],"other":"Other","otherPlaceholder":"Which one","none":"None yet"},"submit":"Send answers","skip":"Skip","errors":{"empty":"Choose at least one answer or tap “Skip”","otherRequired":"Tell us which system you used"},"done":{"title":"Thank you for your answers!","text":"We'll write as soon as there is news about the launch."}}},"ui":{"openMenu":"Open menu","closeMenu":"Close menu"},"fx":{"_about":"Параметры анимаций и 3D-сцены (ANIM-15, EDIT-04). Цвета — HEX, скорости — множители. Правится без пересборки: файл читается при выводе страницы.","palette":{"hero":{"a":"#0B1E40","b":"#11306A","c":"#1F5CA8","spot1":"#009FE1","spot2":"#2EE6C5","edge":"#1F5CA8"},"about":{"a":"#F0F4FE","b":"#E3ECFC","c":"#EFE7F7","spot1":"#9CCEF6","spot2":"#D9C4EC","light":true,"edge":"#3C9BF5"},"device":{"a":"#040A17","b":"#08132C","c":"#132456","spot1":"#2EE6C5","spot2":"#A77BA5","edge":"#7A62D6"},"roadmap":{"a":"#0B6FB0","b":"#6E5690","c":"#1B5AA0","spot1":"#2EE6C5","spot2":"#57B8F0","edge":"#2EE6C5"},"join":{"a":"#0A2A6B","b":"#123C8C","c":"#1D5FD0","spot1":"#2EE6C5","spot2":"#A77BA5","edge":"#3D8BF0"},"footer":{"a":"#0D2450","b":"#102A56","c":"#16366B","spot1":"#009FE1","spot2":"#A77BA5","edge":"#1B3F7A"}},"flow":{"speed":0.075,"warp":1,"grain":0.03,"blend":0.11,"edge":0.7},"spots":{"follow":0.075,"size":0.3,"intensity":0.5,"burst":1},"bignum":{"_about":"Большое число в блоке «О нас»: fit — растёт при прокрутке и в конце помещается по ширине экрана, marquee — шире экрана и едет вбок","mode":"fit"},"silk":{"colorA":"#2B8FE3","colorB":"#A77BA5","colorC":"#172A63","sheen":"#E8F7FF","sheen2":"#2EE6C5","rim":"#7AD4FF","speed":1,"amplitude":1,"opacityMobile":0.72},"drape":{"_about":"Ткань над аппликатором и сенсором. material: satin — атлас, velvet — бархат, linen — лён. Цвета каждого материала — в materials. tilt и turn — наклон и поворот камеры в градусах, scale — размер, yOff — сдвиг по высоте.","material":"satin","rim":"#7AD4FF","breath":1,"ripple":1,"tilt":14,"turn":14,"scale":1.12,"yOff":-0.5,"materials":{"satin":{"base":"#7486C9","shade":"#0B1033","sheen":"#F4F2FF"},"velvet":{"base":"#2B2F86","shade":"#05061A","sheen":"#C4B4FF"},"linen":{"base":"#CFCADF","shade":"#26243F","sheen":"#FFFFFF"}}},"quality":{"maxDpr":1.75,"mobileMaxDpr":1.35,"bgScale":0.5,"mobileBgScale":0.34,"minFps":50}},"drape":"../assets/media/drape-65CE5B26.bin"}</script></body>
 </html>
